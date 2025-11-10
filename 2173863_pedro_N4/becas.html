@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Becas Disponibles 2025</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #0e1b2b;
+      --bg-soft: #0c1828;
+      --card: #162b4d;
+      --primary: #5a8dee;
+      --text: #f1f5f9;
+      --muted: #a8b5d0;
+      --border: rgba(255, 255, 255, 0.08);
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      line-height: 1.55;
+      background: radial-gradient(1200px 600px at 50% -200px, rgba(90,141,238,0.18), transparent) , var(--bg);
+      color: var(--text);
+    }
+    /* Topbar */
+    .topbar {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      padding: 0.75rem 1rem;
+      backdrop-filter: blur(10px);
+      background: linear-gradient(180deg, rgba(14,27,43,0.85), rgba(14,27,43,0.55));
+      border-bottom: 1px solid var(--border);
+      z-index: 1000;
+    }
+    .brand {
+      font-weight: 700;
+      letter-spacing: .3px;
+    }
+    .actions { display: flex; gap: .5rem; }
+    .btn {
+      appearance: none;
+      border: 1px solid var(--border);
+      background: #0f2140;
+      color: var(--text);
+      padding: .6rem 1rem;
+      border-radius: .75rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: transform .15s ease, background .2s ease, border-color .2s ease;
+    }
+    .btn:hover { background: #153162; border-color: rgba(255,255,255,.18); }
+    .btn:active { transform: translateY(1px); }
+    .btn-primary { background: var(--primary); border-color: transparent; color: #061120; }
+    .btn-primary:hover { filter: brightness(1.05); }
+    /* Hero */
+    .hero {
+      padding-top: 96px; /* space for fixed bar */
+      display: grid;
+      place-items: center;
+      text-align: center;
+      padding-bottom: 1.25rem;
+    }
+    .title {
+      font-size: clamp(1.6rem, 3vw + 1rem, 2.6rem);
+      font-weight: 800;
+      margin: .75rem 1rem 0.25rem;
+    }
+    .subtitle {
+      color: var(--muted);
+      margin: 0 1rem 1.5rem;
+      max-width: 900px;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 0 1rem 3rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1rem;
+    }
+    .card {
+      background: linear-gradient(180deg, rgba(22,43,77,0.95), rgba(18,34,63,0.95));
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 1.1rem 1.1rem 1rem;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.25);
+    }
+    .card h2 {
+      color: var(--primary);
+      font-size: 1.05rem;
+      margin: .25rem 0 .5rem;
+    }
+    .tag {
+      display: inline-block;
+      font-size: .75rem;
+      background: #0f2140;
+      border: 1px solid var(--border);
+      padding: .25rem .5rem;
+      border-radius: 999px;
+      color: var(--muted);
+      margin-bottom: .35rem;
+    }
+    a.more {
+      color: var(--text);
+      text-decoration: underline;
+    }
+    .apply {
+      margin-top: .5rem;
+      padding-top: .6rem;
+      border-top: 1px dashed var(--border);
+      font-weight: 600;
+    }
+    footer {
+      text-align: center;
+      color: var(--muted);
+      border-top: 1px solid var(--border);
+      background: var(--bg-soft);
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <nav class="topbar">
+    <div class="brand">Becas</div>
+    <div class="actions">
+      <button class="btn" id="btnInicio" type="button">Inicio</button>
+      <button class="btn btn-primary" id="btnSalir" type="button">Salir</button>
+    </div>
+  </nav>
+
+  <header class="hero" id="top">
+    <h1 class="title">🎓 Becas Disponibles 2025</h1>
+    <p class="subtitle">Listado curado de 6 becas: 2 de gobierno, 2 de instituciones privadas y 2 de universidad. Incluye a cuáles puedes aplicar según tu situación académica.</p>
+  </header>
+
+  <main class="container">
+    <section class="grid">
+      <!-- Gobierno 1 -->
+      <article class="card">
+        <span class="tag">Gobierno</span>
+        <h2>1) Beca de Educación Superior “Jóvenes Escribiendo el Futuro”</h2>
+        <p><strong>Institución:</strong> Coordinación Nacional de Becas para el Bienestar Benito Juárez.</p>
+        <p><strong>Descripción:</strong> Apoyo económico de $5,800 MXN bimestrales para estudiantes universitarios de instituciones públicas.</p>
+        <p><a class="more" href="https://programasparaelbienestar.gob.mx/beca-bienestar-benito-juarez-educacion-superior/" target="_blank" rel="noopener">Más información</a></p>
+        <p class="apply">Puedes aplicar: <strong>SÍ</strong>, si estás inscrito en universidad pública.</p>
+      </article>
+      <!-- Gobierno 2 -->
+      <article class="card">
+        <span class="tag">Gobierno</span>
+        <h2>2) Beca Universal de Educación Media Superior Benito Juárez</h2>
+        <p><strong>Institución:</strong> Gobierno de México.</p>
+        <p><strong>Descripción:</strong> Apoyo mensual a estudiantes de preparatoria en escuelas públicas.</p>
+        <p><a class="more" href="https://www.becabenitojuarez.gob.mx/" target="_blank" rel="noopener">Más información</a></p>
+        <p class="apply">Puedes aplicar: <strong>SOLO</strong> si cursas <strong>medio superior</strong> en escuela pública.</p>
+      </article>
+      <!-- Privada 1 -->
+      <article class="card">
+        <span class="tag">Institución Privada</span>
+        <h2>3) Fundación BBVA – “Becas BBVA para Chavos que Inspiran”</h2>
+        <p><strong>Institución:</strong> Fundación BBVA México.</p>
+        <p><strong>Descripción:</strong> Apoya a estudiantes con alto rendimiento y compromiso social que ingresan a universidad.</p>
+        <p><a class="more" href="https://www.fundacionbbva.mx/becas-bbva-para-chavos-que-inspiran/" target="_blank" rel="noopener">Más información</a></p>
+        <p class="apply">Puedes aplicar: <strong>SÍ</strong>, si estás iniciando licenciatura.</p>
+      </article>
+      <!-- Privada 2 -->
+      <article class="card">
+        <span class="tag">Institución Privada</span>
+        <h2>4) Fundación Telmex‑Telcel</h2>
+        <p><strong>Institución:</strong> Fundación Telmex‑Telcel.</p>
+        <p><strong>Descripción:</strong> Beca para estudiantes de licenciatura, maestría o doctorado con apoyo económico y tecnológico.</p>
+        <p><a class="more" href="https://www.fundaciontelmextelcel.org/becas" target="_blank" rel="noopener">Más información</a></p>
+        <p class="apply">Puedes aplicar: <strong>SÍ</strong>, si ya cursas universidad.</p>
+      </article>
+      <!-- Universidad 1 -->
+      <article class="card">
+        <span class="tag">Universidad</span>
+        <h2>5) Universidad La Salle CDMX – Becas de Apoyo y Continuidad</h2>
+        <p><strong>Institución:</strong> Universidad La Salle CDMX.</p>
+        <p><strong>Descripción:</strong> Becas del 20% al 40% de colegiatura para estudiantes con promedio mínimo de 8.0.</p>
+        <p><a class="more" href="https://lasalle.mx/oferta-educativa/becas/" target="_blank" rel="noopener">Más información</a></p>
+        <p class="apply">Puedes aplicar: <strong>SÍ</strong>, si eres o planeas ser alumno de La Salle.</p>
+      </article>
+      <!-- Universidad 2 -->
+      <article class="card">
+        <span class="tag">Universidad</span>
+        <h2>6) UNAM – Programa de Becas Internas</h2>
+        <p><strong>Institución:</strong> Universidad Nacional Autónoma de México.</p>
+        <p><strong>Descripción:</strong> Apoyo a estudiantes por excelencia académica o proyectos de investigación.</p>
+        <p><a class="more" href="https://www.becas.unam.mx/" target="_blank" rel="noopener">Más información</a></p>
+        <p class="apply">Puedes aplicar: <strong>SÍ</strong>, si eres alumno o planeas ingresar a la UNAM.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer>© 2025 — Becas Disponibles</footer>
+
+  <script>
+    // Botón Inicio (scroll suave al top)
+    document.getElementById('btnInicio').addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+    // Botón Salir con confirmación y alerta si no se puede cerrar
+    document.getElementById('btnSalir').addEventListener('click', function () {
+      const ok = confirm('¿Seguro que deseas salir?');
+      if (!ok) return;
+      window.close();
+      setTimeout(function(){
+        alert('No se puede cerrar esta pestaña automáticamente. Puedes cerrarla manualmente.');
+      }, 300);
+    });
+  </script>
+</body>
+</html>
