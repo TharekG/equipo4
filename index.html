@@ -8,41 +8,52 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   font-family: 'Segoe UI', sans-serif;
   margin: 0;
   padding: 30px;
-  color: #2C3E50;
-  background-color: #ecf0f1;
+  color: #111;
+  background: linear-gradient(to right, #1e3d5c, #467eac);
+  background-attachment: fixed;
+  background-size: cover;
   min-height: 100vh;
 }
+
+/* ======= HEADER ======= */
 .encabezado {
   text-align: center;
   margin-bottom: 40px;
   padding: 30px 20px;
-  background-color: #2C3E50;
+  background-color: #012c57;
   color: #ffffff;
   border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
+
 .encabezado h1 {
   font-size: 48px;
   margin: 0;
   font-weight: bold;
   letter-spacing: 1px;
 }
+
 .encabezado .subtitulo {
-  font-size: 20px;
+  font-size: 22px;
   margin-top: 10px;
   font-style: italic;
-  color: #bdc3c7;
+  color: #cce0ff;
 }
+
+/* ======= SECTION HEADINGS ======= */
 h2 {
-  font-size: 26px;
+  font-size: 28px;
   margin: 40px 0 20px;
-  color: #79a3b6;
+  color: #ffffff;
   text-align: center;
 }
+
+/* ======= TABLES ======= */
 table {
   width: 100%;
   border-collapse: collapse;
@@ -50,10 +61,11 @@ table {
   background-color: #ffffff;
   border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
+
 th {
-  background-color: #1abc9c;
+  background-color: #003366;
   color: #ffffff;
   padding: 14px;
   text-align: left;
@@ -61,44 +73,53 @@ th {
   text-transform: uppercase;
   font-size: 14px;
 }
+
 td {
   padding: 12px;
   border-bottom: 1px solid #ddd;
-  font-size: 20px;
+  font-size: 14px;
 }
+
 tr:nth-child(even) {
-  background-color: #f8f9fa;
+  background-color: #f9f9f9;
 }
+
 tr:hover {
-  background-color: #e0f7f1;
+  background-color: #eef6ff;
 }
+
 a {
-  color: #1abc9c;
+  color: #0066cc;
   font-weight: bold;
   text-decoration: none;
 }
+
 a:hover {
   text-decoration: underline;
 }
+
 .tabla2 {
   width: 100%;
   max-width: 500px;
   margin: 0 auto;
 }
-  
+
 @media screen and (max-width: 768px) {
   .encabezado h1 {
     font-size: 36px;
   }
+
   .encabezado .subtitulo {
     font-size: 18px;
   }
+
   th, td {
     padding: 10px;
     font-size: 13px;
   }
+
   h2 {
-    font-size: 22px;
+    font-size: 24px;
   }
 }
 </style>
