@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+
+:root{
+  --bg1:#0f0c29;
+  --bg2:#302b63;
+  --bg3:#24243e;
+  --text:#fff;
+  --glass: rgba(255,255,255,0.1);
+  --border: rgba(255,255,255,0.25);
+  --shadow: 0 0 25px rgba(0,0,0,0.6);
+  --accent1:#6d28d9;
+  --accent2:#0ea5e9;
+  --accent3:#f59e0b;
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:'Montserrat', sans-serif;
+  background: linear-gradient(135deg,var(--bg1),var(--bg2),var(--bg3));
+  background-size:300%;
+  animation: bgmove 12s infinite alternate;
+  color:var(--text);
+}
+@keyframes bgmove{
+  from{background-position:left}
+  to{background-position:right}
+}
+
+.site-header{
+  text-align:center;
+  padding:50px 20px 10px;
+}
+.site-header h1{
+  font-size:36px;
+  font-weight:700;
+  text-shadow:0 0 15px rgba(255,255,255,0.3);
+}
+.lead{
+  font-size:15px;
+  letter-spacing:1px;
+  opacity:0.85;
+}
+
+.container{
+  max-width:1150px;
+  margin:auto;
+  padding:20px;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:24px;
+  margin-top:28px;
+}
+
+.card{
+  padding:22px;
+  border-radius:18px;
+  border:1px solid var(--border);
+  background: var(--glass);
+  backdrop-filter: blur(12px);
+  box-shadow:var(--shadow);
+  transition:.35s ease;
+  position:relative;
+  overflow:hidden;
+}
+.card:hover{
+  transform:translateY(-6px) scale(1.02);
+  box-shadow:0 0 35px rgba(255,255,255,0.25);
+}
+
+.card h2{
+  font-size:20px;
+  margin-bottom:6px;
+  font-weight:600;
+  text-shadow:0 0 10px rgba(255,255,255,0.2);
+}
+
+.tag{
+  font-size:13px;
+  opacity:.85;
+}
+
+.focus{
+  font-size:14px;
+  margin:10px 0 12px;
+  opacity:.9;
+  line-height:1.4;
+}
+
+.card details summary{
+  cursor:pointer;
+  font-weight:600;
+  margin-top:8px;
+}
+.card ul{
+  margin-top:6px;
+  padding-left:18px;
+  font-size:14px;
+  opacity:.85;
+  line-height:1.4;
+}
+
+/* BORDES DE COLOR NEÓN */
+.card.university{
+  border-left:5px solid var(--accent1);
+  box-shadow:0 0 12px var(--accent1);
+}
+.card.university.alt{
+  border-left:5px solid #8b5cf6;
+  box-shadow:0 0 12px #8b5cf6;
+}
+
+.card.government{
+  border-left:5px solid var(--accent2);
+  box-shadow:0 0 12px var(--accent2);
+}
+.card.government.alt{
+  border-left:5px solid #38bdf8;
+  box-shadow:0 0 12px #38bdf8;
+}
+
+.card.private{
+  border-left:5px solid var(--accent3);
+  box-shadow:0 0 12px var(--accent3);
+}
+.card.private.alt{
+  border-left:5px solid #fbbf24;
+  box-shadow:0 0 12px #fbbf24;
+}
