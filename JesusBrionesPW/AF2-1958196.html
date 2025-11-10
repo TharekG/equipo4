@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jesus Briones-AF2-1958196</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f6f8;
+      color: #333;
+    }
+
+  header {
+  background: linear-gradient(90deg, #0077b6, #00b4d8);
+  color: white;
+  padding: 1.5rem 1rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.uanl-header {
+  background-image: url('https://iic.uanl.mx/wp-content/uploads/2024/04/UANLEX.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 300px;
+  color: white;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+.header-overlay {
+  background: rgba(0, 0, 0, 0.5); /* semitransparente para legibilidad */
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-content {
+  text-align: center;
+  max-width: 960px;
+  padding: 1rem;
+}
+
+.logo-text h1 {
+  font-size: 2.5rem;
+  margin: 0;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.logo-text p {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+  opacity: 0.9;
+}
+
+.nav-links {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.nav-links a {
+  background-color: rgba(255,255,255,0.2);
+  padding: 0.6rem 1.2rem;
+  border-radius: 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.nav-links a:hover {
+  background-color: rgba(255,255,255,0.35);
+}
+.header-wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.logo-area {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.site-title h1 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.site-title p {
+  margin: 0.2rem 0 0;
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: opacity 0.2s ease;
+}
+
+.main-nav a:hover {
+  opacity: 0.8;
+}
+
+
+
+    main {
+      max-width: 75%;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    section {
+      margin-bottom: 3rem;
+    }
+
+    section h2 {
+      border-left: 6px solid #0077b6;
+      padding-left: 0.5rem;
+      color: #0077b6;
+      margin-bottom: 1rem;
+    }
+
+    .beca {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      margin-bottom: 1.5rem;
+      padding: 1rem 1.5rem;
+      transition: transform 0.2s ease;
+    }
+
+    .beca:hover {
+      transform: scale(1.02);
+    }
+
+    .beca h3 {
+      margin-top: 0;
+      color: #023e8a;
+    }
+
+    .beca p {
+      margin: 0.5rem 0;
+    }
+    .contacto {
+  background-color: #ffffff;
+  border: 1px solid #d0d0d0;
+  border-radius: 8px;
+  padding: 2rem 1.5rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  margin-bottom: 3rem;
+}
+
+.contacto h2 {
+  color: #0077b6;
+  margin-bottom: 0.5rem;
+}
+
+.contacto p {
+  margin-bottom: 1.5rem;
+  color: #555;
+}
+
+.contacto form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contacto label {
+  font-weight: 500;
+  color: #333;
+}
+
+.contacto input,
+.contacto textarea {
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.contacto button {
+  background-color: #0077b6;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.2rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.contacto button:hover {
+  background-color: #023e8a;
+}
+
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #e0e0e0;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header class="uanl-header">
+  <div class="header-overlay">
+    <div class="header-content">
+      <div class="logo-text">
+        <h1>Programa de Becas</h1>
+        <p>Impulsa tu futuro con oportunidades reales</p>
+      </div>
+      <nav class="nav-links">
+        <a href="#universitarias">🎓 Universitarias</a>
+        <a href="#empleo">💼 Empleo</a>
+        <a href="#gobierno">🏛️ Gobierno</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+  <main>
+
+    <section id="universitarias">
+      <h2>Becas Universitarias</h2>
+
+      <div class="beca">
+        <h3>Beca Merito academico</h3>
+        <p><strong>Dirigida a:</strong> Estudiantes con promedio igual o superior a 8.5</p>
+        <p><strong>Beneficios:</strong> Apoyo monetario de 100% de beca en Rectoría-UANL</p>
+        <p><strong>Requisitos:</strong> <ul>
+            <li>Cumplir con la carga académica completa y aprobar todas las unidades de aprendizaje en primera oportunidad.</li>
+            <li>Mantener un promedio de calificaciones igual o superior a 85 (ochenta y cinco).</li>
+            <li>Permanecer de manera continua</ul></p>
+        <p><strong>Descripción:</strong> Beca del 100 % al egresado de cada programa educativo de nivel medio superior y licenciatura que haya sido reconocido por el H. 
+            Consejo Universitario como mérito académico. Esta beca aplica para cursar el siguiente nivel de educación de un solo programa educativo.</p>
+            <p><strong>Para más información visita:</strong> <a href="https://www.uanl.mx/tramites/becas-academicas/" target="_blank">Becas Academicas-UANL</a></p>
+      </div>
+      <div class="beca">
+        <h3>Becas de Escasos Recursos</h3>
+        <p><strong>Dirigida a: </strong>Las becas de escasos recursos se otorgan a aquellos estudiantes que provengan de familias cuyo ingreso total no exceda del monto de cinco salarios mínimos.
+        <p><strong>Beneficios: </strong>El porcentaje y condiciones se decidirán conforme a los convenios o acuerdos establecidos para tal fin</p>
+        <p><strong>Requisitos: </strong>Si deseas solicitar esta beca, considera los siguientes requisitos:
+            <ul><li>I. No pagar el recibo de servicios escolares y académicos hasta que concluya el trámite de beca de escasos recursos.
+                <li>II. Llenar la solicitud en SIASE.</li>
+                <li>III. Acta de nacimiento del estudiante.</li>
+                <li>IV. Comprobante de domicilio: recibo de agua, luz, gas o teléfono. Quienes viven en zona irregular y no cuenten con algún comprobante de domicilio podrán presentar la credencial de elector.</li>
+                <li>V. Comprobantes de ingresos de padres o tutores</li>
+           <li>VI. En caso de ser casado, el estudiante deberá de anexar el acta de matrimonio y comprobante de ingresos de su nuevo núcleo familiar.</li> 
+           <li>VII. Aquellas otras constancias que se consideren pertinentes para demostrar lo asentado en los formatos de solicitud de beca, por ejemplo: orfandad, viudez, madre soltera, divorcio, separación de padres, enfermedad crónica incapacitante, entre otros.</li>
+           <li>VIII. Escanear los documentos originales en formato PDF y adjuntarlos en forma individual (no fotografías).</li></ul></p>
+        <p><strong>Para mas informacion: </strong> <a href="https://www.uanl.mx/tramites/becas-de-escasos-recursos/" target="_blank">Becas de Escasos Recursos-UANL</a></p>
+      </div>
+    
+     
+    </section>
+
+    
+    <section id="empleo">
+      <h2>Becas de Empresas</h2>
+
+      <div class="beca">
+        <h3>Beca de Fundacion Zaber</h3>
+        <p><strong>Dirigida a:</strong> Estudiantes de recien ingreso o menores de 21 años</p>
+        <p><strong>Beneficios:</strong> 100% de descuento en la cuota de Recotria-UANL</p>
+        <p><strong>Requisitos:</strong> <ul><li>Ser de nacionalidad mexicana.</li>
+            <li>Ser soltero(a) menor de 21 años.</li>
+            <li>Tener alta necesidad económica comprobable.</li>
+            <li>Haber realizado el registro para Concurso a Licenciatura.</li>
+            <li>Haber aprobado el examen de admisión EXANI-II de CENEVAL.</li>
+            <li>Haber obtenido un promedio mínimo de 90 (noventa)</li>
+            <li>Participar en actividades extracurriculares (sociales, deportivas, culturales, de ciencia y tecnología) o contar con experiencia laboral.</li>
+            <li>Llenar la solicitud en línea disponible en nuestra sección “Aplica Ya”. (Sección disponible hasta que se abra la convocatoria).</li></ul></p>
+        <p><strong>Para mas informacion: </strong> <a href="https://fundacionzaber.org/postulate/?fbclid=IwZXh0bgNhZW0CMTAAYnJpZBExM0cwT0ZFaGdsbDhuTmllTHNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR5gds76yjL_AuylHnBLnPiPWmime8CKaFC5hP-Ottwx4D06gxmNYcc3VxSWnQ_aem_VHckJftXR9fdb-IxbUnmvA" target="_blank">Fundacion Zaber</a></p>
+      </div>
+      <div class="beca">
+        <h3>Beca BBVA para Chavos que Inspiran 2025</h3>
+        <p><strong>Dirigida a:</strong> Estudiantes universitarios con escasos recurosos</p>
+        <p><strong>Beneficios:</strong> Apoyo económico mensual que aumenta según el nivel educativo. Para universidad se tiene un monto de: $4500 MXN mensuales. Ademas de eso cuenta con
+        <ul><li>Acompañamiento personalizado con mentoría académica y profesional.</li>
+           <li>Talleres y formación en habilidades para la vida y el trabajo.</li>
+           <li>Acceso a programas de empleabilidad y desarrollo profesional.</li></ul></p>
+        <p><strong>Requisitos:</strong> <ul><li>CURP del estudiante.</li>
+           <li>Boleta de calificaciones con promedio de 8.5 o superior.</li>
+           <li>Comprobante de inscripción a una secundaria pública en México.</li>
+        <li>Identificación oficial del padre, madre o tutor.</li>
+        <li>Carta de motivos explicando por qué necesitas la beca.</li>
+        </ul></p></p>
+        <p><strong>Descripcion: </strong>Esta beca tiene como objetivo transformar la vida de estudiantes talentosos con escasos recursos, asegurando que puedan terminar sus estudios y mejorar su calidad de vida.</p>
+        <p><strong>Para mas informacion: </strong><a href="https://fundacionbbva.mx/convocatoria-becas2025/" target="_blank">Fundacion BBVA</a></p>
+    </div>
+
+    </section>
+
+ 
+    <section id="gobierno">
+      <h2>Becas Gubernamentales</h2>
+
+      <div class="beca">
+        <h3>La Beca "Jóvenes Escribiendo el Futuro"</h3>
+        <p><strong>Dirigida a: </strong>Estudiantes inscritos y estipulados en el <a href="https://www.gob.mx/cms/uploads/attachment/file/977682/S283_-_CCT_escuelas_prioritarias_JEF_2025.02.11.pdf" target="_blank">Catálogo de Escuelas de Educacion Superior </a> </p>
+        <p><strong>Beneficios: </strong> La beca otorga un apoyo bimestral de $5,150 pesos, lo que equivale a $2,575 pesos mensuales. Este apoyo se entrega durante los diez meses del ciclo escolar, excluyendo julio y agosto.</p>
+        <p><strong>Requisitos: </strong><ul><li>Estar inscrito en una universidad pública prioritaria en México.</li>
+            <li>Ser estudiante de licenciatura o técnico superior universitario.</li>
+            <li>Pertenecer a una familia con bajos recursos económicos.</li>
+            <li>Tener entre 18 y 29 años al momento de la solicitud.</li>
+            <li>No recibir otra beca federal con el mismo propósito.</li></ul> </p>
+        <p><strong>Descripción:</strong> Este programa está diseñado para estudiantes de licenciatura y técnico superior universitario que están inscritos en universidades públicas prioritarias.
+             Su objetivo es garantizar la continuidad académica y reducir la deserción escolar. </p>
+             <p><strong>Para mas informacion: </strong> <a href="https://www.gob.mx/becasbenitojuarez/articulos/beca-de-educacion-superior-jovenes-escribiendo-el-futuro" target="_blank">Beca "Jóvenes Escribiendo el Futuro"</a></p>
+      </div>
+      <div class="beca">
+        <h3>Becas Jóvenes Construyendo el Futuro</h3>
+        <p><strong>Dirigida a: </strong> Estudiantes de escuelas prioritarias que necesitan apoyo financiero para continuar su formación académica.</p>
+        <p><strong>Beneficios: </strong> La asignación monetaria varía según el año y la carrera, estimando un apoyo de $750 a $1,000 pesos mensuales.</p>
+        <p><strong>Requisitos: </strong> Para poder solicitar la beca jóvenes construyendo el futuro 2025, los jóvenes deben cumplir con ciertos criterios que garantizan que los recursos se destinen a quienes realmente lo necesitan:
+            <ul><li>Estar matriculado en una escuela de nivel superior que se encuentre en el listado de escuelas prioritarias.</li>
+                <li>Demostrar necesidad económica, preferentemente mediante la documentación requerida.</li>
+                <li>No contar con otra beca que impida la obtención de este apoyo.</li>
+                <li>Ser un estudiante activo y con buen rendimiento académico.</li></ul></p>
+        <p><strong>Descripción: </strong> Las becas jóvenes construyendo el futuro tienen como objetivo principal reducir la desigualdad en el acceso a la educación superior. Estas becas están destinadas a los estudiantes de escuelas prioritarias que necesitan apoyo financiero para continuar su formación académica. Desde su creación, el programa ha sido un pilar en la estrategia educativa del país, beneficiando a miles de jóvenes en diversas instituciones. En el año 2025, se ha reforzado el compromiso con el avance educativo, ofreciendo nuevas oportunidades a los estudiantes mexicanos.</p>
+        <p><strong>Para mas informacion: </strong> <a href="https://becasbenitojuarezmx.com/becas-jovenes-construyendo-el-futuro/" target="_blank">Becas Jóvenes Construyendo el Futuro</a></p>
+    </div>
+    </section>
+     <section class="contacto">
+  <h2>Contacto</h2>
+  <p>¿Tienes dudas sobre estas becas? Envíanos un mensaje y te responderemos pronto.</p>
+  <form>
+    <label for="nombre">Nombre completo:</label>
+    <input type="text" id="nombre" name="nombre" required />
+
+    <label for="email">Correo electrónico:</label>
+    <input type="email" id="email" name="email" required />
+
+    <label for="mensaje">Mensaje:</label>
+    <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+    <button type="submit">Enviar</button>
+  </form>
+</section>
+  </main>
+
+  <footer>
+    &copy; 2025 Programa de Becas 
+  </footer>
+</body>
+</html>
