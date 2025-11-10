@@ -1,9 +1,160 @@
 <!DOCTYPE html>
-<html language="es">
-    <head>
-        <meta charset="utf-8">
-	    <title> Actividad 1 </title>
-	</head>
-    <body>
-    </body>
+<html langueage="es">
+<head>
+  <meta charset="utf-8" />
+  <title>Actividad 1 - 1871949</title>
+  <style>
+    html, body { height: 100%; }
+    body{
+      margin: 0; background: #1e2938; color: #111827;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif;
+      line-height: 1.7;
+    }
+
+    h1,h2,h3{ margin: 0 0 8px 0; line-height: 1.3; }
+    h2{ font-size: 22px; letter-spacing: 0.64px; text-transform: uppercase; }
+    p{ margin: 6.4px 0; }
+    ul{ margin: 9.6px 0 0 20.8px; padding: 0; }
+    li{ margin: 6.4px 0; }
+    small{ color: #6b7280; }
+    a{ color: inherit; text-decoration: none; }
+
+    .pagina{
+      max-width: 1000px; margin: 32px auto; padding: 32px;
+    }
+    .contenedor{
+      display: grid; grid-template-columns: 320px 1fr; gap: 0;
+      background: #ffffff; border-radius: 18px; overflow: hidden;
+      box-shadow: 0 10px 25px rgba(2,6,23,.12);
+    }
+
+    .lateral{
+      background: linear-gradient(160deg,#3b475e 0%, #2b3446 100%);
+      color: #e5e7eb; padding: 36px; position: relative;
+    }
+    .perfil{
+      width: 170px; height: 170px; border-radius: 16px; overflow: hidden; background:#1f2937;
+      display: block; margin-bottom: 20px; border: 3px solid rgba(255,255,255,.1);
+    }
+    .perfil img{ width: 100%; height: 100%; object-fit: cover; display:block; }
+    .cuadroizq{ margin-top: 24px; }
+    .linea{ height:1px; background: rgba(255,255,255,.12); margin: 20px 0; border: 0; }
+    .cuadroizq h2{ color:#e2e8f0; font-weight:600; }
+    .puntos{ margin: 13px 0 0 19px; }
+    .puntos li{ margin: .45rem 0; }
+    .derecho{ padding: 40px; }
+    .top{
+      display: grid; grid-template-columns: 1fr; gap: 8px; margin-bottom: 16px;
+    }
+    .nombre{ font-size: 2.4rem; font-weight: 800; letter-spacing: .2px; }
+    .apellido{ display:block; font-weight: 900; }
+    .contact{
+      display: grid; grid-template-columns: 1fr; gap: 10px; margin-top: 10px; color: #6b7280;
+    }
+    .contact .row{ display:flex; align-items:center; gap:12px; }
+
+    .seccion{ margin-top: 28px; }
+    .seccion h2{ color:#0f172a; }
+    .linea2{ height:1px; background: #cbd5e1; margin: 14px 0 20px; }
+
+    .educacion, .experiencia{ margin-bottom: 20px; }
+    .educacion .where{ font-weight: 700; }
+    .experiencia h3{ font-size: 1.05rem; font-weight: 700; margin-bottom: 6px; }
+    .datos{ color: #6b7280; font-size: .95rem; margin: 4px 0 10px; }
+
+    .idioma{ display:flex; gap:16px; flex-wrap: wrap; }
+    .tag{ background:#f1f5f9; border:1px solid #e2e8f0; padding:8px 12px; border-radius: 10px; font-size:16px; }
+
+  </style>
+</head>
+<body>
+  <main class="pagina">
+    <section class="contenedor">
+      <aside class="lateral">
+        <figure class="perfil">
+        <img src="assets/perfil.jpeg">
+        </figure>
+
+        <div class="cuadroizq">
+          <h2>Habilidades</h2>
+          <hr class="linea" />
+          <ul class="puntos">
+            <li>Analizar, diseñar y optimizar sistemas informáticos.</li>
+            <li>Resolución de problemas mediante métodos lógicos.</li>
+            <li>Comunicación efectiva con equipos de trabajo.</li>
+            <li>Interés por aprender nuevas tecnologías, lenguajes y metodologías.</li>
+            <li>Aplicación de metodologías de gestión de proyectos.</li>
+          </ul>
+        </div>
+
+        <div class="cuadroizq">
+          <h2>Conocimientos</h2>
+          <hr class="linea" />
+          <ul class="puntos">
+            <li>Administración de sistemas Windows, Linux y macOS.</li>
+            <li>Fundamentos de redes, routers y switches, seguridad.</li>
+            <li>Bases de datos relacionales (MySQL): diseño y consultas.</li>
+            <li>Desarrollo con Python, C++, HTML, CSS y JavaScript.</li>
+            <li>Diseño de interfaces gráficas (UI).</li>
+          </ul>
+        </div>
+      </aside>
+
+      <section class="derecho">
+        <header class="top">
+          <h1 class="nombre">Tharek Alexis <span class="apellido">Garcia A.</span></h1>
+
+          <div class="contact">
+            <div class="row">Teléfono: <span>8111796695</span></div>
+            <div class="row">Correo <a>tharkg@hotmail.com</a></div>
+            <div class="row">Locación: <span>Apodaca, Nuevo León</span></div>
+            <div class="row">Fecha de Nacimiento: <span>04/02/2001</span></div>
+          </div>
+        </header>
+
+        <div class="seccion">
+          <h2>Formación</h2>
+          <div class="linea2"></div>
+          <div class="educacion">
+            <div class="datos">01/2023 – Actual</div>
+            <div class="where">Facultad de Ingeniería Mecánica y Eléctrica – UANL · San Nicolás de los Garza</div>
+            <p>Lic. en Ingeniería en Administración y Sistemas: Sistemas Computacionales</p>
+          </div>
+        </div>
+
+        <div class="seccion">
+          <h2>Experiencia</h2>
+          <div class="linea2"></div>
+
+          <article class="experiencia">
+            <h3>Desarrollador de Software · <span class="where">Sistema de Gestión de Facturas EPC</span></h3>
+            <div class="datos">09/2025 – 11/2025 · Apodaca, Nuevo León</div>
+            <ul>
+              <li>Programé módulos del sistema utilizando Python para interfaz, base de datos y archivos.</li>
+              <li>Implementé conexión con MySQL para gestión de usuarios, facturas e inventario; generé reportes mensuales.</li>
+            </ul>
+          </article>
+
+          <article class="experiencia">
+            <h3>Diseñador UI · <span class="where">Sistema RAJTIR</span></h3>
+            <div class="datos">01/2025 – 05/2025 · Saltillo, Coahuila</div>
+            <ul>
+              <li>Diseñé la interfaz con la librería Tkinter y recursos de Figma.</li>
+              <li>Aseguré una interfaz coherente y llamativa centrada en el usuario.</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="seccion">
+          <h2>Idiomas</h2>
+          <div class="linea2"></div>
+          <div class="idioma">
+            <span class="tag">Español · C2 (Nativo)</span>
+            <span class="tag">Inglés · C1 (Avanzado)</span> 
+          </div>
+        </div>
+      </section>
+    </section>
+  </main>
+</body>
 </html>
