@@ -1,0 +1,125 @@
+
+/* 1. Reset y Estilos Generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #eef2f5;
+}
+
+.cv-container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 8px;
+}
+
+h1, h2, h3 {
+    color: #004a8f; /* Azul institucional UANL */
+    font-weight: bold;
+}
+
+/* 2. Encabezado y Foto */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid #0365c1;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.2em;
+    margin: 0;
+}
+
+.career {
+    font-size: 1.1em;
+    color: #666;
+    margin: 5px 0 0 0;
+}
+
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%; /* Foto circular */
+    object-fit: cover;
+    border: 3px solid #004a8f;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+/* 3. Layout de Contenido (Dos Columnas) */
+.content-flex {
+    display: flex;
+    gap: 30px; /* Espacio entre las columnas */
+}
+
+.main-content {
+    flex: 3; /* Columna más ancha para Experiencia/Educación */
+}
+
+.sidebar {
+    flex: 1; /* Columna más estrecha para Habilidades/Hobbies/Contacto */
+    padding-left: 20px;
+    border-left: 1px solid #ddd;
+}
+
+/* 4. Estilos de Secciones y Títulos */
+h2 {
+    font-size: 1.4em;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 1.2em;
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Íconos */
+.material-icons {
+    font-size: 1.1em;
+    vertical-align: middle;
+    margin-right: 5px;
+    color: #004a8f;
+}
+
+/* 5. Estilos de Experiencia y Educación */
+.job-entry, .education-entry {
+    margin-bottom: 20px;
+}
+
+.job-title, .degree-name {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 2px;
+}
+
+.company-name, .institution-name {
+    font-style: italic;
+    color: #666;
+    font-size: 0.9em;
+    margin-bottom: 5px;
+}
+
+/* Listas de responsabilidades/habilidades */
+.job-entry ul, .skills ul {
+    list-style: disc;
+    margin-left: 20px;
+    font-size: 0.9em;
+    line-height: 1.5;
+}
+
+/* 6. Contacto y Hobbies (Sidebar) */
+.contact p, .hobbies p {
+    font-size: 0.9em;
+    line-height: 1.6;
+    margin-bottom: 5px;
+}
