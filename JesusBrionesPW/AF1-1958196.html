@@ -5,10 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Jesus Briones - 1958196 - AF1</title>
   <meta name="description" content="Currículum vitae de Jesús: experiencia, educación, habilidades, proyectos y contacto." />
-
-  <!-- Tipografías -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Montserrat:wght@600;800&display=swap" rel="stylesheet">
-
   <style>
     :root{
       --bg: #ffffff;
@@ -30,14 +27,10 @@
         --border: #1f2745;
       }
     }
-
-    /* Base */
     *,*::before,*::after{ box-sizing: border-box; }
     body{ margin:0; font-family: Inter, sans-serif; background: var(--bg); color: var(--text); line-height:1.6; }
     a{ color: var(--primary); text-decoration: none; }
     a:hover{ text-decoration: underline; }
-
-    /* Header */
     header{ width:100%; position:sticky; top:0; background:var(--bg); border-bottom:1px solid var(--border); z-index:10; }
     .nav{ display:flex; justify-content:space-between; align-items:center; padding:.75rem 1rem; max-width:1200px; margin:0 auto; }
     .brand{ display:flex; align-items:center; gap:.75rem; }
@@ -46,8 +39,6 @@
     .menu{ display:flex; gap:.75rem; flex-wrap:wrap; }
     .menu a{ padding:.5rem .75rem; border-radius:.5rem; color:var(--text); text-decoration:none; }
     .menu a:hover{ background:var(--surface); }
-
-    /* Layout principal */
     .layout{
       display:grid;
       grid-template-columns: 280px 1fr;
@@ -56,8 +47,6 @@
       margin:0 auto;
       padding:2rem 1rem;
     }
-
-    /* Sidebar */
     .sidebar{
       background:var(--surface);
       border:1px solid var(--border);
@@ -105,19 +94,14 @@
          color: var(--muted);
          font-size:.85rem;
     }
-    /* Contenido */
     .contenido{ display:grid; gap:2rem; }
     section{ background:var(--surface); border:1px solid var(--border); border-radius:.75rem; padding:1rem; }
     section h2, section h3{ font-family:Montserrat, sans-serif; margin-top:0; }
-
-    /* Hero */
     .hero{ display:grid; grid-template-columns:160px 1fr; gap:1rem; align-items:center; }
     .avatar{ width:160px; height:160px; border-radius:50%; overflow:hidden; border:3px solid var(--border); }
     .avatar img{ width:100%; height:100%; object-fit:cover; }
     .tags{ display:flex; flex-wrap:wrap; gap:.5rem; margin-top:.5rem; }
     .tag{ font-size:.85rem; background:var(--bg); border:1px solid var(--border); padding:.25rem .5rem; border-radius:.5rem; }
-
-    /* Experiencia y educación */
     .items{ display:grid; gap:1rem; }
     .item{
       background:var(--bg); border:1px solid var(--border); border-radius:.5rem; padding:.75rem;
@@ -127,35 +111,25 @@
     .item .meta{ color: var(--muted); font-size:.9rem; text-align:right; }
     .item ul{ margin:.25rem 0 0; padding-left: 1.25rem; }
     .item li{ margin:.25rem 0; }
-
-    /* Habilidades */
     .skills{ display:grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap:.75rem; }
     .skill{ border:1px solid var(--border); background:var(--bg); border-radius:.5rem; padding:.75rem; }
     .skill .label{ font-weight:600; }
     .bar{ height:8px; border-radius:999px; background:var(--surface); border:1px solid var(--border); margin-top:.5rem; overflow:hidden; }
     .bar span{ display:block; height:100%; background:linear-gradient(90deg, var(--primary), var(--primary-ink)); }
-
-    /* Portafolio */
     .grid{ display:grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap:1rem; }
     .card{ background:var(--bg); border:1px solid var(--border); border-radius:.75rem; overflow:hidden; display:flex; flex-direction:column; }
     .card img{ width:100%; aspect-ratio:4/3; object-fit:cover; }
     .card .body{ padding:.75rem; display:flex; flex-direction:column; gap:.25rem; }
     .card .body h4{ margin:.25rem 0; }
     .card .body p{ color: var(--muted); margin:0; }
-
-    /* Contacto */
     form{ display:grid; gap:.75rem; }
     label{ font-weight:600; }
     input, textarea{ width:100%; padding:.65rem; border:1px solid var(--border); border-radius:.5rem; background:var(--bg); color:var(--text); }
     textarea{ min-height: 120px; }
     button{ padding:.65rem .9rem; border:none; border-radius:.5rem; font-weight:700; background:var(--primary); color:#fff; cursor:pointer; }
     button:focus{ outline: 2px solid #fff; outline-offset: 2px; }
-
-    /* Footer */
     footer{ max-width: 1200px; margin: 0 auto 2rem; padding: 0 1rem; color: var(--muted); display:flex; justify-content: space-between; align-items:center; gap:1rem; }
     footer .social{ display:flex; gap:.5rem; flex-wrap:wrap; }
-
-    /* Responsive */
     @media(max-width:768px){
       .layout{ grid-template-columns:1fr; }
       .sidebar{ order:-1; }
@@ -169,7 +143,6 @@
   <header role="banner">
     <nav class="nav" aria-label="Principal">
       <div class="brand">
-        <!-- Ícono de computadora -->
         <svg width="28" height="28" viewBox="0 0 24 24" aria-hidden="true" fill="currentColor">
           <path d="M4 5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h6v2H7a1 1 0 1 0 0 2h10a1 1 0 1 0 0-2h-3v-2h6a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2H4zm0 2h16v9H4V7z"/>
         </svg>
@@ -184,15 +157,12 @@
         <a href="#educacion">Educación</a>
         <a href="#habilidades">Habilidades</a>
         <a href="#portafolio">Portafolio</a>
-        <a href="#contacto">Contacto</a>
       </div>
     </nav>
   </header>
 
   <div class="layout">
-    <!-- Sidebar izquierda -->
     <aside class="sidebar" aria-label="Información lateral">
-  <!-- Datos personales -->
   <section class="datos-personales">
     <h3>Datos personales</h3>
     <ul>
@@ -203,8 +173,6 @@
       <li><strong>Email:</strong> tu@correo.com</li>
     </ul>
   </section>
-
-  <!-- Idiomas -->
   <section class="idiomas">
     <h3>Idiomas</h3>
     <div class="idioma">
@@ -223,34 +191,25 @@
       <small>Intermedio (B1)</small>
     </div>
   </section>
-
-  <!-- Redes sociales -->
   <section class="redes">
     <h3>Redes</h3>
     <div class="social" aria-label="Redes sociales">
-      <!-- Instagram -->
       <a href="https://www.instagram.com/yeez.xbrs/" aria-label="Instagram" target="_blank" rel="noopener">
         <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M7 2C4.2 2 2 4.2 2 7v10c0 2.8 2.2 5 5 5h10c2.8 0 5-2.2 5-5V7c0-2.8-2.2-5-5-5H7zm0 2h10c1.7 0 3 1.3 3 3v10c0 1.7-1.3 3-3 3H7c-1.7 0-3-1.3-3-3V7c0-1.7 1.3-3 3-3zm5 2.5A5.5 5.5 0 1 0 17.5 12 5.5 5.5 0 0 0 12 6.5zm0 2A3.5 3.5 0 1 1 8.5 12 3.5 3.5 0 0 1 12 8.5zm5.8-2.3a1.2 1.2 0 1 0 1.2 1.2 1.2 1.2 0 0 0-1.2-1.2z"/></svg>
       </a>
-      <!-- Facebook -->
       <a href="https://www.facebook.com/jesus.briones.418637" aria-label="Facebook" target="_blank" rel="noopener">
         <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M22 12a10 10 0 1 0-11.6 9.9v-7h-2v-3h2v-2.3c0-2 1.2-3.1 3-3.1.9 0 1.8.1 1.8.1v2h-1c-1 0-1.3.6-1.3 1.2V12h2.3l-.4 3h-1.9v7A10 10 0 0 0 22 12z"/></svg>
       </a>
-      <!-- GitHub -->
       <a href="https://github.com/yeezxbrs" aria-label="GitHub" target="_blank" rel="noopener">
         <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.5-1.3-1.2-1.6-1.2-1.6-1-.7.1-.7.1-.7 1.1.1 1.7 1.1 1.7 1.1 1 .1.7 2.1 2.9 1.5.1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.9 0-1.3.5-2.4 1.2-3.3-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11.3 11.3 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8.1 3.1.8.9 1.2 2 1.2 3.3 0 4.6-2.7 5.6-5.3 5.9.4.3.8 1 .8 2v3c0 .3.2.7.8.6A12 12 0 0 0 12 .5z"/></svg>
       </a>
-      <!-- Gmail -->
       <a href="mailto:jangelgohanssj134@gmail.com" aria-label="Gmail">
         <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M20 4H4a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h16a2 2 0 0 0 2-2V6c0-1.1-.9-2-2-2zm0 2v.5l-8 5-8-5V6h16zm0 12H4V8l8 5 8-5v10z"/></svg>
       </a>
     </div>
   </section>
 </aside>
-
-    <!-- Contenido principal -->
     <main class="contenido" id="contenido">
-      <!-- Sobre mí -->
       <section id="sobre-mi" class="hero" aria-labelledby="tit-sobre">
         <div class="avatar" aria-hidden="true">
           <img src="https://scontent.fntr12-1.fna.fbcdn.net/v/t39.30808-6/444501171_2271574129857944_6836149358594898298_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeHqPH9OobVLky15S4DXw2XsUUoH1dRA07tRSgfV1EDTu1uLAU7OOjb6lJqia0ZQuZhoxMGOgr_Yf2uQKQlvyb13&_nc_ohc=d3MCzwNUxG4Q7kNvwEszmMh&_nc_oc=AdnWW_kfIqfVCd1GdpEliaFvbYGuqxy693_-YB2GrR7RLLiZF4Jbiixtw9mUNCd-d685Vh1Yae3tKVvTrW9Dp0wg&_nc_zt=23&_nc_ht=scontent.fntr12-1.fna&_nc_gid=YfDDwF7zMtYTCP8z236kvw&oh=00_Afjai3u_0i2qpzIQL3uBKNzn8jvt0eSgoyH7Cx2ZWkJeew&oe=691495B8" alt="Foto de perfil" />
@@ -265,8 +224,6 @@
           </div>
         </div>
       </section>
-
-      <!-- Experiencia -->
       <section id="experiencia" aria-labelledby="tit-exp">
         <h2 id="tit-exp">Experiencia</h2>
         <div class="items">
@@ -296,8 +253,6 @@
         </div>
         
       </section>
-
-      <!-- Educación -->
       <section id="educacion" aria-labelledby="tit-edu">
         <h2 id="tit-edu">Educación</h2>
         <div class="items">
@@ -315,8 +270,6 @@
           </article>
         </div>
       </section>
-
-      <!-- Habilidades -->
       <section id="habilidades" aria-labelledby="tit-skill">
         <h2 id="tit-skill">Habilidades</h2>
         <div class="skills">
@@ -342,8 +295,6 @@
           </div>
         </div>
       </section>
-
-      <!-- Portafolio -->
       <section id="portafolio" aria-labelledby="tit-port">
         <h2 id="tit-port">Portafolio</h2>
         <div class="grid">
@@ -357,50 +308,24 @@
             </div>
       </section>
 
-      <!-- Contacto -->
-      <section id="contacto" aria-labelledby="tit-contacto">
-        <h2 id="tit-contacto">Contacto</h2>
-        <form action="#" method="post">
-          <div>
-            <label for="nombre">Nombre</label>
-            <input id="nombre" name="nombre" type="text" placeholder="Tu nombre" required />
-          </div>
-          <div>
-            <label for="correo">Correo</label>
-            <input id="correo" name="correo" type="email" placeholder="tu@correo.com" required />
-          </div>
-          <div>
-            <label for="mensaje">Mensaje</label>
-            <textarea id="mensaje" name="mensaje" placeholder="Cuéntame sobre el proyecto" required></textarea>
-          </div>
-          <button type="submit">Enviar</button>
-        </form>
-      </section>
-    </main>
-  </div>
-
   <footer role="contentinfo">
     <p>© 2025 Jesús — San Nicolás de los Garza, NL</p>
     <div class="social" aria-label="Redes sociales">
-      <!-- Instagram -->
       <a href="https://www.instagram.com/yeez.xbrs/" aria-label="Instagram" target="_blank" rel="noopener">
         <svg width="20" height="20" fill="currentColor" aria-hidden="true" viewBox="0 0 24 24">
           <path d="M7 2C4.2 2 2 4.2 2 7v10c0 2.8 2.2 5 5 5h10c2.8 0 5-2.2 5-5V7c0-2.8-2.2-5-5-5H7zm0 2h10c1.7 0 3 1.3 3 3v10c0 1.7-1.3 3-3 3H7c-1.7 0-3-1.3-3-3V7c0-1.7 1.3-3 3-3zm5 2.5A5.5 5.5 0 1 0 17.5 12 5.5 5.5 0 0 0 12 6.5zm0 2A3.5 3.5 0 1 1 8.5 12 3.5 3.5 0 0 1 12 8.5zm5.8-2.3a1.2 1.2 0 1 0 1.2 1.2 1.2 1.2 0 0 0-1.2-1.2z"/>
         </svg>
       </a>
-      <!-- Facebook -->
       <a href="https://www.facebook.com/jesus.briones.418637" aria-label="Facebook" target="_blank" rel="noopener">
         <svg width="20" height="20" fill="currentColor" aria-hidden="true" viewBox="0 0 24 24">
           <path d="M22 12a10 10 0 1 0-11.6 9.9v-7h-2v-3h2v-2.3c0-2 1.2-3.1 3-3.1.9 0 1.8.1 1.8.1v2h-1c-1 0-1.3.6-1.3 1.2V12h2.3l-.4 3h-1.9v7A10 10 0 0 0 22 12z"/>
         </svg>
       </a>
-      <!-- GitHub -->
       <a href="https://github.com/yeezxbrs" aria-label="GitHub" target="_blank" rel="noopener">
         <svg width="20" height="20" fill="currentColor" aria-hidden="true" viewBox="0 0 24 24">
           <path d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.5-1.3-1.2-1.6-1.2-1.6-1-.7.1-.7.1-.7 1.1.1 1.7 1.1 1.7 1.1 1 .1.7 2.1 2.9 1.5.1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.9 0-1.3.5-2.4 1.2-3.3-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11.3 11.3 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8.1 3.1.8.9 1.2 2 1.2 3.3 0 4.6-2.7 5.6-5.3 5.9.4.3.8 1 .8 2v3c0 .3.2.7.8.6A12 12 0 0 0 12 .5z"/>
         </svg>
       </a>
-      <!-- Gmail -->
       <a href="mailto:jangelgohanssj134@gmail.com" aria-label="Gmail">
         <svg width="20" height="20" fill="currentColor" aria-hidden="true" viewBox="0 0 24 24">
           <path d="M20 4H4a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h16a2 2 0 0 0 2-2V6c0-1.1-.9-2-2-2zm0 2v.5l-8 5-8-5V6h16zm0 12H4V8l8 5 8-5v10z"/>
@@ -409,4 +334,5 @@
     </div>
   </footer>
 </body>
+
 </html>
