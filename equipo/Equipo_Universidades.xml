@@ -59,7 +59,7 @@
     </UniversidadesDestino>
 </ProgramaMovilidad>
 
-<ProgramaMovilidadFIME>
+<ProgramaMovilidad>
     <FacultadOrigen>Facultad de Ingeniería Mecánica y Eléctrica (FIME)</FacultadOrigen>
     <RequisitosGeneralesUANL>
         <RequisitoGeneral id="RGU01">Haber cursado y aprobado un mínimo del 50% de los créditos de la carrera.</RequisitoGeneral>
@@ -110,7 +110,7 @@
             </RequisitosEspecificos>
         </Universidad>
     </UniversidadesDestino>
-</ProgramaMovilidadFIME>
+</ProgramaMovilidad>
 
 
 <ProgramaMovilidad>
