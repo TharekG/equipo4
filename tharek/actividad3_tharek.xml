@@ -1,53 +1,60 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <ProgramaMovilidad>
-    <FacultadOrigen>Facultad de Ingeniería Mecánica y Eléctrica (FIME)</FacultadOrigen>
-    <Carrera>Ingeniero Administrador de Sistemas (IAS)</Carrera>
-    <RequisitosGeneralesUANL>
-        <Requisito id="RG01">Ser estudiante regular (sin adeudo de materias).</Requisito>
-        <Requisito id="RG02">Haber cursado y aprobado un mínimo del 50% de los créditos de la carrera.</Requisito>
-        <Requisito id="RG03">Contar con un promedio general mínimo de 85/100 (puede variar ligeramente según la convocatoria).</Requisito>
-        <Requisito id="RG04">Aprobar los estudios médicos y psicológicos solicitados.</Requisito>
-        <Requisito id="RG05">Entregar documentación completa en tiempo y forma (Kardex oficial, Carta de postulación de FIME, Carta de motivos, Formato de autorización de materias a cursar, CV, etc.).</Requisito>
-        <Requisito id="RG06">Cubrir el seguro de gastos médicos (nacional o internacional, según destino).</Requisito>
-    </RequisitosGeneralesUANL>
+  <FacultadOrigen>Facultad de Ingeniería Mecánica y Eléctrica (FIME)</FacultadOrigen>
+  <Carrera>Ingeniero Administrador de Sistemas (IAS)</Carrera>
 
-    <UniversidadesDestino>
-        <Universidad tipo="Nacional">
-            <Nombre> </Nombre>
-            <Ubicacion> </Ubicacion>
-            <EnfoqueCarrera> </EnfoqueCarrera>
-            <RequisitosEspecificos>
-                <Requisito id="N1E01"> </Requisito>
-                <Requisito id="N1E02"> </Requisito>
-                <Requisito id="N1E03"> </Requisito>
-                <Nota> </Nota>
-            </RequisitosEspecificos>
-        </Universidad>
+  <RequisitosGeneralesUANL>
+    <Requisito id="RG01">Estar inscrito en el Departamento Escolar y de Archivo de la UANL y en la escuela o facultad correspondiente, en el periodo escolar en el que se realice.</Requisito>
+    <Requisito id="RG02">Ser alumno regular y contar con promedio mínimo de 85.</Requisito>
+    <Requisito id="RG03">Contar con el documento de postulación de su escuela o facultad.</Requisito>
+    <Requisito id="RG04">Registrar la carga horaria en la escuela o facultad durante el periodo escolar en el que se realice la movilidad académica.</Requisito>
+    <Requisito id="RG05">Haber cursado y aprobado un mínimo de 50% de los créditos académicos del plan de estudios.</Requisito>
+    <Requisito id="RG06">Cursar unidades de aprendizaje equivalentes al plan de estudios.</Requisito>
+    <Requisito id="RG07">Cursar al menos la carga horaria mínima del plan de estudios correspondiente.</Requisito>
+    <Requisito id="RG08">Comprobar el dominio del idioma establecido en el convenio o por la institución receptora.</Requisito>
+    <Requisito id="RG09">No haber participado anteriormente en un programa de movilidad con reconocimiento de créditos.</Requisito>
+    <Requisito id="RG10">Entregar solicitud y realizar los trámites que establezca el Área de Movilidad Académica.</Requisito>
+    <Requisito id="RG11">Cubrir los pagos correspondientes.</Requisito>
+    <Requisito id="RG12">Aprobar estudios médicos y psicológicos requeridos.</Requisito>
+    <Requisito id="RG13">Cumplir los demás puntos establecidos por la convocatoria.</Requisito>
+  </RequisitosGeneralesUANL>
 
-        <Universidad tipo="Nacional">
-            <Nombre> </Nombre>
-            <Ubicacion> </Ubicacion>
-            <EnfoqueCarrera> </EnfoqueCarrera>
-            <RequisitosEspecificos>
-                <Requisito id="N2E01"> </Requisito>
-                <Requisito id="N2E02"> </Requisito>
-                <Requisito id="N2E03"> </Requisito>
-                <Nota> </Nota>
-            </RequisitosEspecificos>
-        </Universidad>
+  <UniversidadesDestino>
+    <Universidad tipo="Nacional">
+      <Nombre>Universidad Estatal de Sonora</Nombre>
+      <Ubicacion>Sonora, México</Ubicacion>
+      <EnfoqueCarrera>Ingeniería y Administración de Sistemas</EnfoqueCarrera>
+      <RequisitosEspecificos>
+        <Requisito id="N1E01">Promedio mínimo de 85.</Requisito>
+        <Requisito id="N1E02">50% de créditos cursados y aprobados.</Requisito>
+        <Requisito id="N1E03">Cumplir con requisitos del convenio ANUIES.</Requisito>
+        <Nota>La postulación puede incluir hasta tres universidades nacionales.</Nota>
+      </RequisitosEspecificos>
+    </Universidad>
 
-        <Universidad tipo="Internacional">
-            <Nombre> </Nombre>
-            <Ubicacion> </Ubicacion>
-            <EnfoqueCarrera> </EnfoqueCarrera>
-            <RequisitosEspecificos>
-                <Requisito id="I1E01"> </Requisito>
-                <Requisito id="I1E02"> </Requisito>
-                <Requisito id="I1E03"> </Requisito>
-                <Requisito id="I1E04"> </Requisito>
-                <Requisito id="I1E05"> </Requisito>
-                <Requisito id="I1E06"> </Requisito>
-            </RequisitosEspecificos>
-        </Universidad>
-    </UniversidadesDestino>
+    <Universidad tipo="Nacional">
+      <Nombre>Universidad Autónoma de Tlaxcala</Nombre>
+      <Ubicacion>Tlaxcala, México</Ubicacion>
+      <EnfoqueCarrera>Administración, Ingeniería y Tecnología</EnfoqueCarrera>
+      <RequisitosEspecificos>
+        <Requisito id="N2E01">Promedio mínimo de 85.</Requisito>
+        <Requisito id="N2E02">Haber completado al menos el 50% de créditos del plan de estudios.</Requisito>
+        <Requisito id="N2E03">Cumplir con la documentación nacional requerida por UANL.</Requisito>
+        <Nota>Debe entregar documentación separada para cada universidad postulada.</Nota>
+      </RequisitosEspecificos>
+    </Universidad>
+
+    <Universidad tipo="Internacional">
+      <Nombre>Universidad de Kannur</Nombre>
+      <Ubicacion>Kannur, India</Ubicacion>
+      <EnfoqueCarrera>Colaboración Académica, Científica y Cultural</EnfoqueCarrera>
+      <RequisitosEspecificos>
+        <Requisito id="I1E01">Promedio mínimo de 85.</Requisito>
+        <Requisito id="I1E02">50% de créditos cursados y aprobados.</Requisito>
+        <Requisito id="I1E03">Dominio comprobable del idioma inglés (TOEFL iBT ≥ 80) o equivalente.</Requisito>
+        <Requisito id="I1E04">Pasaporte vigente con mínimo 6 meses posteriores a la fecha de regreso.</Requisito>
+        <Requisito id="I1E05">Seguro médico internacional con cobertura de repatriación y atención psicológica.</Requisito>
+        <Requisito id="I1E06">Carta de aceptación y calendario de actividades firmado por asesor y director de tesis.</Requisito>
+      </RequisitosEspecificos>
+    </Universidad>
+  </UniversidadesDestino>
 </ProgramaMovilidad>
