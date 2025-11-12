@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>David Julian Miranda Velazquez | CV Profesional</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+  <div class="cv-container">
+    <!-- LADO IZQUIERDO -->
+    <aside class="sidebar">
+      <div class="profile">
+        <img src="img/foto.jpeg" alt="Foto de perfil">
+        <h1>David Julian Miranda Velazquez</h1>
+        <p class="subtitle">Ingeniería en Administración de Sistemas</p>
+        <p class="location">Monterrey, Nuevo León</p>
+      </div>
+
+      <div class="contact-info">
+        <h2>Contacto</h2>
+        <ul>
+          <li><i class="fa-solid fa-envelope"></i> davidjulianmv@gmail.com</li>
+          <li><i class="fa-solid fa-phone"></i> +52 81 1234 5678</li>
+          <li><i class="fa-solid fa-map-marker-alt"></i> Monterrey, N.L.</li>
+        </ul>
+      </div>
+
+      <div class="languages">
+        <h2>Idiomas</h2>
+        <p>Español — Nativo</p>
+        <div class="bar"><span style="width:100%"></span></div>
+        <p>Inglés — Bajo intermedio</p>
+        <div class="bar"><span style="width:55%"></span></div>
+      </div>
+
+      <div class="social">
+        <h2>Redes</h2>
+        <a href="mailto:davidjulianmv@gmail.com"><i class="fas fa-envelope"></i></a>
+        <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </aside>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main class="content">
+      <section class="about">
+        <h2>Perfil Profesional</h2>
+        <p>Soy estudiante de Ingeniería en Administración de Sistemas en la Facultad de Ingeniería Mecánica y Eléctrica (FIME). Me especializo en diseño UX, redes y administración de sistemas, combinando conocimientos técnicos con una visión analítica y organizativa.</p>
+        <p>Me considero una persona responsable, creativa y con gran disposición para aprender. He desarrollado proyectos académicos de desarrollo web y optimización de redes locales, fortaleciendo mis habilidades de trabajo en equipo y liderazgo.</p>
+      </section>
+
+      <section class="education">
+        <h2>Educación</h2>
+        <div class="item">
+          <h3>Ingeniería en Administración de Sistemas</h3>
+          <p>Facultad de Ingeniería Mecánica y Eléctrica — UANL (en curso)</p>
+        </div>
+        <div class="item">
+          <h3>Preparatoria No. 9</h3>
+          <p>Universidad Autónoma de Nuevo León</p>
+        </div>
+        <div class="item">
+          <h3>Secundaria Técnica No. 84 Emilio Guzmán Lozano</h3>
+        </div>
+      </section>
+
+      <section class="experience">
+        <h2>Experiencia</h2>
+        <div class="item">
+          <h3>Desarrollo de proyectos académicos</h3>
+          <p><em>Monterrey, Nuevo León · 2022–2024</em></p>
+          <ul>
+            <li>Optimización de redes locales en entornos pequeños.</li>
+            <li>Diseño UX y administración de sistemas.</li>
+            <li>Desarrollo de aplicaciones funcionales con interfaz adaptativa.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="skills">
+        <h2>Habilidades Técnicas</h2>
+        <div class="skill"><span>Desarrollo web</span><div class="bar"><span style="width:85%"></span></div></div>
+        <div class="skill"><span>Redes Cisco</span><div class="bar"><span style="width:75%"></span></div></div>
+        <div class="skill"><span>MySQL y bases de datos</span><div class="bar"><span style="width:80%"></span></div></div>
+        <div class="skill"><span>Trabajo en equipo</span><div class="bar"><span style="width:95%"></span></div></div>
+      </section>
+
+      <section class="portfolio">
+        <h2>Proyectos y Portafolio</h2>
+        <p>Desarrollo de interfaces funcionales y optimización de recursos tecnológicos en proyectos escolares y personales.</p>
+        <a href="#">Ver portafolio</a>
+      </section>
+    </main>
+  </div>
+
+  <footer>
+    <p>©️ 2025 David Julian Miranda Velazquez — Monterrey, Nuevo León</p>
+  </footer>
+</body>
+</html>
