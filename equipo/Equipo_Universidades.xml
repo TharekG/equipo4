@@ -59,7 +59,6 @@
     </UniversidadesDestino>
 </ProgramaMovilidad>
 
-<?xml version="1.0" encoding="UTF-8"?>
 <ProgramaMovilidadFIME>
     <FacultadOrigen>Facultad de Ingeniería Mecánica y Eléctrica (FIME)</FacultadOrigen>
     <RequisitosGeneralesUANL>
@@ -113,7 +112,7 @@
     </UniversidadesDestino>
 </ProgramaMovilidadFIME>
 
-<?xml version="1.0" encoding="UTF-8"?>
+
 <ProgramaMovilidad>
     <FacultadOrigen>Facultad de Ingeniería Mecánica y Eléctrica (FIME)</FacultadOrigen>
     <Carrera>Ingeniero Administrador de Sistemas (IAS)</Carrera>
@@ -167,7 +166,7 @@
     </UniversidadesDestino>
 </ProgramaMovilidad>
 
-<?xml version="1.0" encoding="UTF-8"?>
+
 <ProgramaMovilidad>
     <FacultadOrigen>Facultad de Ingeniería Mecánica y Eléctrica (FIME)</FacultadOrigen>
     <Carrera>Ingeniero Administrador de Sistemas (IAS)</Carrera>
@@ -221,7 +220,7 @@
     </UniversidadesDestino>
 </ProgramaMovilidad>
 
-<?xml version="1.0" encoding="UTF-8"?>
+
 <ProgramaMovilidad>
     <FacultadOrigen>Facultad de Ingeniería Mecánica y Eléctrica (FIME)</FacultadOrigen>
     <Carrera>Ingeniero Administrador de Sistemas (IAS)</Carrera>
@@ -276,7 +275,7 @@
     </UniversidadesDestino>
 </ProgramaMovilidad>
 
-<?xml version="1.0" encoding="UTF-8"?>
+
 <universidades carrera="Ingeniero Administrador de Sistemas">
   <universidad tipo="nacional">
     <nombre>Universidad Autónoma de Nuevo León (UANL)</nombre>
