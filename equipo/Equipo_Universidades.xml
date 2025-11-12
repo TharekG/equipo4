@@ -168,6 +168,61 @@
 </ProgramaMovilidad>
 
 <?xml version="1.0" encoding="UTF-8"?>
+<ProgramaMovilidad>
+    <FacultadOrigen>Facultad de Ingeniería Mecánica y Eléctrica (FIME)</FacultadOrigen>
+    <Carrera>Ingeniero Administrador de Sistemas (IAS)</Carrera>
+
+    <RequisitosGeneralesUANL>
+        <Requisito id="RG01">Ser estudiante regular (sin adeudo de materias).</Requisito>
+        <Requisito id="RG02">Haber cursado y aprobado un mínimo del 50% de los créditos de la carrera.</Requisito>
+        <Requisito id="RG03">Contar con un promedio general mínimo de 85/100 (puede variar ligeramente según la convocatoria).</Requisito>
+        <Requisito id="RG04">Aprobar los estudios médicos y psicológicos solicitados.</Requisito>
+        <Requisito id="RG05">Entregar documentación completa en tiempo y forma (Kardex oficial, Carta de postulación de FIME, Carta de motivos, Formato de autorización de materias a cursar, CV, etc.).</Requisito>
+        <Requisito id="RG06">Cubrir el seguro de gastos médicos (nacional o internacional, según destino).</Requisito>
+    </RequisitosGeneralesUANL>
+
+    <UniversidadesDestino>
+        <Universidad tipo="Nacional">
+            <Nombre>Instituto Politécnico Nacional (IPN)</Nombre>
+            <Ubicacion>Ciudad de México, México</Ubicacion>
+            <EnfoqueCarrera>Ingeniería en Sistemas Computacionales o Informática Administrativa</EnfoqueCarrera>
+            <RequisitosEspecificos>
+                <Requisito id="N1E01">Cumplir con los requisitos generales de la UANL (50% de créditos y promedio de 85).</Requisito>
+                <Requisito id="N1E02">Aceptar el formato de solicitud de la UANL y los trámites de registro interno del IPN.</Requisito>
+                <Requisito id="N1E03">Contar con Carta Compromiso y de Apoyo de la Dirección de FIME.</Requisito>
+                <Nota>La movilidad nacional se rige principalmente por el convenio ANUIES o el acuerdo bilateral UANL-IPN. Requisitos adicionales son mínimos fuera de los generales UANL.</Nota>
+            </RequisitosEspecificos>
+        </Universidad>
+
+        <Universidad tipo="Nacional">
+            <Nombre>Universidad de Guadalajara (UdG)</Nombre>
+            <Ubicacion>Guadalajara, Jalisco, México</Ubicacion>
+            <EnfoqueCarrera>Ingeniería en Sistemas o Ingeniería Industrial y de Sistemas</EnfoqueCarrera>
+            <RequisitosEspecificos>
+                <Requisito id="N2E01">Cumplir con los requisitos generales de la UANL.</Requisito>
+                <Requisito id="N2E02">Presentar el formato de solicitud oficial UANL.</Requisito>
+                <Requisito id="N2E03">Realizar el trámite de revalidación de unidades de aprendizaje (materias) con anticipación.</Requisito>
+                <Nota>Las convocatorias de la UdG suelen tener fechas específicas que deben coordinarse con la Dirección de Intercambio Académico de FIME.</Nota>
+            </RequisitosEspecificos>
+        </Universidad>
+
+        <Universidad tipo="Internacional">
+            <Nombre>Universidad de Nagoya (Nagoya University) - Japón</Nombre>
+            <Ubicacion>Nagoya, Prefectura de Aichi, Japón</Ubicacion>
+            <EnfoqueCarrera>Ingeniería de Sistemas, Computación y Tecnología</EnfoqueCarrera>
+            <RequisitosEspecificos>
+                <Requisito id="I1E01">Cumplir con los requisitos generales de la UANL (50% de créditos y promedio mínimo de 85).</Requisito>
+                <Requisito id="I1E02">Acreditar nivel de idioma inglés (TOEFL iBT mínimo 80) o japonés (Nivel JLPT N3 o superior).</Requisito>
+                <Requisito id="I1E03">Contar con pasaporte vigente y visa de estudiante.</Requisito>
+                <Requisito id="I1E04">Presentar carta de motivos en inglés dirigida a la Universidad de Nagoya.</Requisito>
+                <Requisito id="I1E05">Contratar seguro de gastos médicos con cobertura internacional y repatriación.</Requisito>
+                <Nota>La FIME-UANL mantiene convenios de cooperación con universidades japonesas, incluyendo la Universidad de Nagoya, facilitando movilidad de estudiantes de ingeniería.</Nota>
+            </RequisitosEspecificos>
+        </Universidad>
+    </UniversidadesDestino>
+</ProgramaMovilidad>
+
+<?xml version="1.0" encoding="UTF-8"?>
 <universidades carrera="Ingeniero Administrador de Sistemas">
   <universidad tipo="nacional">
     <nombre>Universidad Autónoma de Nuevo León (UANL)</nombre>
