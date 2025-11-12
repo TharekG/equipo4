@@ -1,1 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProgramaMovilidad>
+    <FacultadOrigen>Facultad de Ingeniería Mecánica y Eléctrica (FIME)</FacultadOrigen>
+    <Carrera>Ingeniero Administrador de Sistemas (IAS)</Carrera>
+    <RequisitosGeneralesUANL>
+        <Requisito id="RG01">Ser estudiante regular (sin adeudo de materias).</Requisito>
+        <Requisito id="RG02">Haber cursado y aprobado un mínimo del 50% de los créditos de la carrera.</Requisito>
+        <Requisito id="RG03">Contar con un promedio general mínimo de 85/100 (puede variar ligeramente según la convocatoria).</Requisito>
+        <Requisito id="RG04">Aprobar los estudios médicos y psicológicos solicitados.</Requisito>
+        <Requisito id="RG05">Entregar documentación completa en tiempo y forma (Kardex oficial, Carta de postulación de FIME, Carta de motivos, Formato de autorización de materias a cursar, CV, etc.).</Requisito>
+        <Requisito id="RG06">Cubrir el seguro de gastos médicos (nacional o internacional, según destino).</Requisito>
+    </RequisitosGeneralesUANL>
 
+    <UniversidadesDestino>
+        <Universidad tipo="Nacional">
+            <Nombre>Universidad Autónoma de Baja California(UABC)</Nombre>
+            <Ubicacion>Mexicali, Baja California, México</Ubicacion>
+            <EnfoqueCarrera>Ingeniería en Computación</EnfoqueCarrera>
+            <RequisitosEspecificos>
+                <Requisito id="N1E01">Estar inscrito como alumno regular en la UANL, en la facultad correspondiente</Requisito>
+                <Requisito id="N1E02"> Tener promedio mínimo general de 85 (o su equivalente) para licenciatura.</Requisito>
+                <Requisito id="N1E03">Haber cursado y aprobado al menos el 50 % de los créditos del plan de estudios al momento de aplicar.</Requisito>
+                <Requisito id="N1E04">Contar con carta de motivos, currículum vitae, certificado oficial de calificaciones (kárdex) al momento de presentar la solicitud.</Requisito>
+                <Requisito id="N1E05">Presentar la solicitud oficial, incluidas unidades de aprendizaje que se planean cursar en la universidad destino (formato de revalidación) y cumplir con carga horaria mínima establecida</Requisito>
+                <Requisito id="N1E06">Documentación general: copia de identificación oficial, CURP, etc.</Requisito>
+            </RequisitosEspecificos>
+        </Universidad>
+
+        <Universidad tipo="Nacional">
+            <Nombre> instituto Tecnologíco de Matamoros(ITM)</Nombre>
+            <Ubicacion>Matamoros, Tamaulipas, México</Ubicacion>
+            <EnfoqueCarrera>Ingeniería en Sistemas Computacionales.</EnfoqueCarrera>
+            <RequisitosEspecificos>
+                <Requisito id="N2E01">Cumplir con los requisitos generales de la UANL.</Requisito>
+                <Requisito id="N2E02">Presentar el formato de solicitud oficial UANL.</Requisito>
+                <Requisito id="N2E03">Realizar el trámite de revalidación de unidades de aprendizaje (materias) con anticipación.</Requisito>
+                <Nota>Las convocatorias de la UdG suelen tener fechas específicas que deben coordinarse con la Dirección de Intercambio Académico de FIME.</Nota>
+            </RequisitosEspecificos>
+        </Universidad>
+
+        <Universidad tipo="Internacional">
+            <Nombre>Carnegie Mellon University (CMU)</Nombre>
+            <Ubicacion>Pensilvania, Estados Unidos</Ubicacion>
+            <EnfoqueCarrera>Bachelor of Science in Information Systems (IS)</EnfoqueCarrera>
+            <RequisitosEspecificos>
+                <Requisito id="I1E01">El programa es recíproco: CMU acepta estudiantes de las instituciones socias, y los estudiantes de CMU participan en esas instituciones.</Requisito>
+                <Requisito id="I1E02">Los estudiantes que desean aplicar al “University-Wide Exchange” deben completar:
+                La aplicación de intercambio de CMU (“Exchange Application”) a través del portal de Estudios en el Extranjero de CMU. 
+                También la aplicación específica del programa de intercambio de la universidad destino (aunque en este caso tú serías estudiante de tu universidad origen, la UANL, y destino CMU, el convenio debe preverlo). </Requisito>
+                <Requisito id="I1E03">Ensayo (“required essay”) de aproximadamente 1 000 palabras describiendo tu formación, objetivos académicos y profesionales, y cómo el intercambio te ayudará</Requisito>
+                <Requisito id="I1E04">Currículum vitae (résumé).</Requisito>
+                <Requisito id="I1E05">Dos cartas de recomendación.</Requisito>
+                <Requisito id="I1E06">Lista de los cursos de CMU que deseas cursar (Courses of Interest form) para planificar con el departamento anfitrión.</Requisito>
+                <Requisito id="I1E07">Para estudiantes entrantes que requieran visa F-1 o documentos DS-2019/I-20, es obligatorio asistir a la orientación de estudiantes internacionales al llegar.</Requisito>
+                <Requisito id="I1E08">Prueba del dominio del inglés (si el solicitante no es hablante nativo de inglés)</Requisito>
+                <Requisito id="I1E09">Prueba del dominio del inglés (si el solicitante no es hablante nativo de inglés)</Requisito>
+            </RequisitosEspecificos>
+        </Universidad>
+    </UniversidadesDestino>
+</ProgramaMovilidad>
