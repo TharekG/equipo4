@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ProgramasMovilidad>
 
-  <!-- ===================== GRUPO 1 ===================== -->
   <ProgramaMovilidad>
     <FacultadOrigen>Facultad de Ingeniería Mecánica y Eléctrica (FIME)</FacultadOrigen>
     <Carrera>Ingeniero Administrador de Sistemas (IAS)</Carrera>
@@ -36,7 +35,7 @@
     </UniversidadesDestino>
   </ProgramaMovilidad>
 
-  <!-- ===================== GRUPO 2 ===================== -->
+
   <ProgramaMovilidad>
     <FacultadOrigen>Facultad de Ingeniería Mecánica y Eléctrica (FIME)</FacultadOrigen>
 
@@ -67,7 +66,7 @@
     </UniversidadesDestino>
   </ProgramaMovilidad>
 
-  <!-- ===================== GRUPO 3 ===================== -->
+
   <ProgramaMovilidad>
     <FacultadOrigen>Facultad de Ingeniería Mecánica y Eléctrica (FIME)</FacultadOrigen>
     <Carrera>Ingeniero Administrador de Sistemas (IAS)</Carrera>
@@ -99,7 +98,7 @@
     </UniversidadesDestino>
   </ProgramaMovilidad>
 
-  <!-- ===================== GRUPO 4 ===================== -->
+
   <ProgramaMovilidad>
     <FacultadOrigen>Facultad de Ingeniería Mecánica y Eléctrica (FIME)</FacultadOrigen>
     <Carrera>Ingeniero Administrador de Sistemas (IAS)</Carrera>
@@ -125,7 +124,7 @@
     </UniversidadesDestino>
   </ProgramaMovilidad>
 
-  <!-- ===================== GRUPO 5 ===================== -->
+
   <ProgramaMovilidad>
     <FacultadOrigen>Facultad de Ingeniería Mecánica y Eléctrica (FIME)</FacultadOrigen>
     <Carrera>Ingeniero Administrador de Sistemas (IAS)</Carrera>
@@ -151,7 +150,7 @@
     </UniversidadesDestino>
   </ProgramaMovilidad>
 
-  <!-- ===================== GRUPO 6 ===================== -->
+
   <ProgramaMovilidad>
     <FacultadOrigen>Facultad de Ingeniería Mecánica y Eléctrica (FIME)</FacultadOrigen>
     <Carrera>Ingeniero Administrador de Sistemas (IAS)</Carrera>
