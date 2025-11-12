@@ -166,3 +166,46 @@
         </Universidad>
     </UniversidadesDestino>
 </ProgramaMovilidad>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<universidades carrera="Ingeniero Administrador de Sistemas">
+  <universidad tipo="nacional">
+    <nombre>Universidad Autónoma de Nuevo León (UANL)</nombre>
+    <facultad>Facultad de Ingeniería Mecánica y Eléctrica (FIME)</facultad>
+    <programa>Ingeniero Administrador de Sistemas</programa>
+    <ubicacion>San Nicolás de los Garza, Nuevo León, México</ubicacion>
+    <pagina>https://www.uanl.mx/oferta/ingeniero-administrador-de-sistemas/</pagina>
+    <requisitos>
+      <requisito>Haber concluido el bachillerato en el área físico-matemática o equivalente.</requisito>
+      <requisito>Presentar y aprobar el Examen de Admisión de la UANL.</requisito>
+      <requisito>Participar en el curso propedéutico establecido por la facultad.</requisito>
+      <requisito>Entregar documentación oficial (acta de nacimiento, CURP, certificado de estudios).</requisito>
+    </requisitos>
+  </universidad>
+
+  <universidad tipo="nacional">
+    <nombre>Universidad Metropolitana de Monterrey (UMM)</nombre>
+    <programa>Ingeniero Administrador de Sistemas</programa>
+    <ubicacion>Monterrey, Nuevo León, México</ubicacion>
+    <pagina>https://www.umm.edu.mx/profesional/ingeniero-administrador-de-sistemas</pagina>
+    <requisitos>
+      <requisito>Acta de nacimiento actualizada.</requisito>
+      <requisito>Certificado de bachillerato legalizado o constancia de estudios concluidos.</requisito>
+      <requisito>Entrevista de admisión con el área académica.</requisito>
+      <requisito>Pago de inscripción y entrega de documentos originales.</requisito>
+    </requisitos>
+  </universidad>
+
+  <universidad tipo="internacional">
+    <nombre>University of Texas at Austin</nombre>
+    <programa>Bachelor of Science in Information Systems and Computer Science</programa>
+    <ubicacion>Austin, Texas, Estados Unidos</ubicacion>
+    <pagina>https://admissions.utexas.edu/info-for/international-students/</pagina>
+    <requisitos>
+      <requisito>Enviar solicitud completa mediante Common App o ApplyTexas.</requisito>
+      <requisito>Historial académico traducido al inglés y certificado.</requisito>
+      <requisito>Demostrar dominio del inglés (TOEFL iBT ≥ 79 o IELTS ≥ 6.5).</requisito>
+      <requisito>Ensayo personal y posibles cartas de recomendación académica.</requisito>
+    </requisitos>
+  </universidad>
+</universidades>
