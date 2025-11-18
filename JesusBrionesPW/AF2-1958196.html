@@ -139,17 +139,26 @@ padding: 0 1rem;
     .beca p {
       margin: 0.5rem 0;
     }
-    button {
-  padding: .65rem 1rem;
+    .boton-centro {
+  display: flex;
+  justify-content: center; /* centra horizontalmente */
+  align-items: center;     /* centra verticalmente */
+  margin: 2rem 0;          /* espacio arriba y abajo */
+}
+
+.boton-centro button {
+  padding: 1rem 2rem;       /* más grande */
+  font-size: 1.2rem;        /* texto más grande */
   border: none;
-  border-radius: .5rem;
+  border-radius: .75rem;
   font-weight: 700;
   background: var(--primary);
   color: #fff;
   cursor: pointer;
   transition: background .2s ease;
 }
-button:hover {
+
+.boton-centro button:hover {
   background: var(--primary-ink);
 }
   </style>
@@ -283,9 +292,12 @@ button:hover {
     </section>
      
   </main>
+  <div class="boton-centro">
   <button onclick="Regresar()">Regresar</button>
+  </div>
 </body>
 </html>
+
 
 
 
