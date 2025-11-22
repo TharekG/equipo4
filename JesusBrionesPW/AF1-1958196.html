@@ -1,321 +1,227 @@
 <!DOCTYPE html>
-<html lang="es" dir="ltr">
+<html lang="es">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Jesus Briones - 1958196 - AF5</title>
-  <meta name="description" content="Currículum vitae de Jesús: experiencia, educación, habilidades, proyectos y contacto." />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Montserrat:wght@600;800&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jesús Briones - CV</title>
+  <!-- Fuente moderna -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <style>
-    :root{
+    :root {
       --bg: #ffffff;
-      --text: #1f2937;
-      --muted: #6b7280;
+      --text: #333;
       --primary: #2563eb;
-      --primary-ink: #0b4ae2;
-      --surface: #f3f4f6;
-      --border: #e5e7eb;
-    }
-    @media (prefers-color-scheme: dark){
-      :root{
-        --bg: #0b1020;
-        --text: #e5e7eb;
-        --muted: #9aa3b2;
-        --primary: #60a5fa;
-        --primary-ink: #8ec2ff;
-        --surface: #121731;
-        --border: #1f2745;
-      }
-    }
-    *,*::before,*::after{ box-sizing: border-box; }
-    body{ margin:0; font-family: Inter, sans-serif; background: var(--bg); color: var(--text); line-height:1.6; }
-    a{ color: var(--primary); text-decoration: none; }
-    a:hover{ text-decoration: underline; }
-    header{ width:100%; position:sticky; top:0; background:var(--bg); border-bottom:1px solid var(--border); z-index:10; }
-    .nav{ display:flex; justify-content:space-between; align-items:center; padding:.75rem 1rem; max-width:1200px; margin:0 auto; }
-    .brand{ display:flex; align-items:center; gap:.75rem; }
-    .brand h1{ font-family:Montserrat, sans-serif; font-weight:800; margin:0; font-size:1.5rem; }
-    .brand small{ color: var(--muted); font-weight: 600; }
-    .menu{ display:flex; gap:.75rem; flex-wrap:wrap; }
-    .menu a{ padding:.5rem .75rem; border-radius:.5rem; color:var(--text); text-decoration:none; }
-    .menu a:hover{ background:var(--surface); }
-    .layout{
-      display:grid;
-      grid-template-columns: 280px 1fr;
-      gap:2rem;
-      max-width:1200px;
-      margin:0 auto;
-      padding:2rem 1rem;
-    }
-    .sidebar{
-      background:var(--surface);
-      border:1px solid var(--border);
-      border-radius:.75rem;
-      padding:1rem;
-    }
-    .sidebar h3{ font-family:Montserrat, sans-serif; margin-top:0; }
-    .sidebar ul{ list-style:none; padding:0; margin:0; }
-    .sidebar li{ margin:.5rem 0; }
-    .sidebar .social{
-      display:flex; gap:.5rem; margin-top:1rem; flex-wrap:wrap;
-    }
-    .social a{
-      display:inline-flex; align-items:center; justify-content:center;
-      width:32px; height:32px; border-radius:999px;
-      background: var(--bg); border:1px solid var(--border); color: var(--text);
-    }
-    .social a:hover{ color: var(--primary); border-color: var(--primary); }
-    .sidebar section {
-    margin-bottom: 1.5rem;
-    padding-bottom: 1rem;
-    border-bottom: 1px solid var(--border);
+      --muted: #666;
+      --border: #ddd;
     }
 
-    .idiomas .idioma {
-    margin-bottom: .75rem;  
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
     }
-    .idiomas .idioma span {
-    font-weight:600;
+
+    header {
+      background: var(--primary);
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
     }
-    .idiomas .bar {
-        height:8px;
-        border-radius:999px;
-        background: var(--surface);
-        border:1px solid var(--border);
-        margin:.25rem 0;
-        overflow:hidden;
+    header h1 {
+      margin: 0;
+      font-size: 1.8rem;
     }
-    .idiomas .bar span {
-        display:block;
-         height:100%;
-         background: linear-gradient(90deg, var(--primary), var(--primary-ink));
+    header small {
+      display: block;
+      margin-top: .25rem;
+      font-size: .9rem;
+      color: #e0e0e0;
     }
-    .idiomas small {
-         color: var(--muted);
-         font-size:.85rem;
+
+    nav {
+      margin-top: .5rem;
     }
-    .contenido{ display:grid; gap:2rem; }
-    section{ background:var(--surface); border:1px solid var(--border); border-radius:.75rem; padding:1rem; }
-    section h2, section h3{ font-family:Montserrat, sans-serif; margin-top:0; }
-    .hero{ display:grid; grid-template-columns:160px 1fr; gap:1rem; align-items:center; }
-    .avatar{ width:160px; height:160px; border-radius:50%; overflow:hidden; border:3px solid var(--border); }
-    .avatar img{ width:100%; height:100%; object-fit:cover; }
-    .tags{ display:flex; flex-wrap:wrap; gap:.5rem; margin-top:.5rem; }
-    .tag{ font-size:.85rem; background:var(--bg); border:1px solid var(--border); padding:.25rem .5rem; border-radius:.5rem; }
-    .items{ display:grid; gap:1rem; }
-    .item{
-      background:var(--bg); border:1px solid var(--border); border-radius:.5rem; padding:.75rem;
-      display:grid; grid-template-columns: 1fr auto; gap:.25rem .75rem;
+    nav a {
+      color: #fff;
+      margin: 0 .5rem;
+      text-decoration: none;
+      font-weight: 600;
     }
-    .item h4{ margin:.25rem 0; }
-    .item .meta{ color: var(--muted); font-size:.9rem; text-align:right; }
-    .item ul{ margin:.25rem 0 0; padding-left: 1.25rem; }
-    .item li{ margin:.25rem 0; }
-    .skills{ display:grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap:.75rem; }
-    .skill{ border:1px solid var(--border); background:var(--bg); border-radius:.5rem; padding:.75rem; }
-    .skill .label{ font-weight:600; }
-    .bar{ height:8px; border-radius:999px; background:var(--surface); border:1px solid var(--border); margin-top:.5rem; overflow:hidden; }
-    .bar span{ display:block; height:100%; background:linear-gradient(90deg, var(--primary), var(--primary-ink)); }
-    .grid{ display:grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap:1rem; }
-    .card{ background:var(--bg); border:1px solid var(--border); border-radius:.75rem; overflow:hidden; display:flex; flex-direction:column; }
-    .card img{ width:100%; aspect-ratio:4/3; object-fit:cover; }
-    .card .body{ padding:.75rem; display:flex; flex-direction:column; gap:.25rem; }
-    .card .body h4{ margin:.25rem 0; }
-    .card .body p{ color: var(--muted); margin:0; }
-    button {
-  padding: .65rem 1rem;
-  border: none;
-  border-radius: .5rem;
-  font-weight: 700;
-  background: var(--primary);
-  color: #fff;
-  cursor: pointer;
-  transition: background .2s ease;
+    nav a:hover { text-decoration: underline; }
+
+    .container {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    section {
+      margin-bottom: 2rem;
+    }
+    section h2 {
+      border-bottom: 2px solid var(--primary);
+      padding-bottom: .25rem;
+      margin-bottom: 1rem;
+      font-size: 1.2rem;
+      color: var(--primary);
+    }
+
+    .avatar {
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+    .avatar img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid var(--border);
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      margin: .5rem 0;
+    }
+
+    .skills li {
+      background: #f5f5f5;
+      padding: .5rem;
+      border-radius: .25rem;
+    }
+    #hobbies ul {
+  list-style: none;
+  padding: 0;
 }
-button:hover {
-  background: var(--primary-ink);
+#hobbies li {
+  margin: .5rem 0;
+  font-size: 1rem;
 }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: .9rem;
+      color: var(--muted);
+      border-top: 1px solid var(--border);
+    }
+    footer button {
+      margin-top: .5rem;
+      padding: .6rem 1rem;
+      border: none;
+      border-radius: .4rem;
+      background: var(--primary);
+      color: #fff;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    footer button:hover { background: #1f4ed8; }
   </style>
-  <script>
-    window.alert("Soy Jesus Angel Briones Alfaro y esta es mi Actividad 5");
-    function Regresar() {
-    
-    window.location.href = "https://tharekg.github.io/equipo4/";
-  }
-  </script>
 </head>
 <body>
-  <header role="banner">
-    <nav class="nav" aria-label="Principal">
-      <div class="brand">
-        <svg width="28" height="28" viewBox="0 0 24 24" aria-hidden="true" fill="currentColor">
-          <path d="M4 5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h6v2H7a1 1 0 1 0 0 2h10a1 1 0 1 0 0-2h-3v-2h6a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2H4zm0 2h16v9H4V7z"/>
-        </svg>
-        <div>
-          <h1>Jesús Briones</h1>
-          <small>Diseño UX · Redes telecomunicaciones · Técnico en sistemas</small>
-        </div>
-      </div>
-      <div class="menu">
-        <a href="#sobre-mi">Sobre mí</a>
-        <a href="#experiencia">Experiencia</a>
-        <a href="#educacion">Educación</a>
-        <a href="#habilidades">Habilidades</a>
-        <a href="#portafolio">Portafolio</a>
-      </div>
+  <header>
+    <h1>Jesús Ángel Briones Alfaro</h1>
+    <small>Ingeniero Administrador de Sistemas</small>
+    <nav>
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#experiencia">Experiencia</a>
+      <a href="#educacion">Educación</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#contacto">Contacto</a>
     </nav>
   </header>
 
-  <div class="layout">
-    <aside class="sidebar" aria-label="Información lateral">
-  <section class="datos-personales">
-    <h3>Datos personales</h3>
-    <ul>
-      <li><strong>Nombre:</strong> Jesús Angel Briones Alfaro</li>
-      <li><strong>Fecha de nacimiento:</strong>01/10/2003</li>
-      <li><strong>Ubicación:</strong> San Nicolás de los Garza, NL</li>
-      <li><strong>Teléfono:</strong> +52 81 82581338</li>
-      <li><strong>Email:</strong> jangelgohanssj134@gmail.com</li>
-    </ul>
-  </section>
-  <section class="idiomas">
-    <h3>Idiomas</h3>
-    <div class="idioma">
-      <span>Español</span>
-      <div class="bar"><span style="width:100%"></span></div>
-      <small>Nativo</small>
+  <div class="container">
+    <div class="avatar">
+      <img src="data:image/jpg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAAAeAAD/4QOtaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA3LjEtYzAwMCA3OS45Y2NjNGRlOTMsIDIwMjIvMDMvMTQtMTQ6MDc6MjIgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MjcyNTFDMzA0NjdCMTFFRDlEQjNBNkVCQjI5N0QzQ0IiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MjcyNTFDMkY0NjdCMTFFRDlEQjNBNkVCQjI5N0QzQ0IiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgRXhwcmVzcyA0LjAuMC1kZXZlbG9wLjM4NCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjYxM0YxQjRFNDY3NTExRURBRjUwRjAxMjA5NjEyMzI2IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjYxM0YxQjRGNDY3NTExRURBRjUwRjAxMjA5NjEyMzI2Ii8+IDxkYzpjcmVhdG9yPiA8cmRmOlNlcT4gPHJkZjpsaT45MTkwMzkzNjE0NjQ0NzM8L3JkZjps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" alt="Foto de Jesús Briones">
     </div>
-    <div class="idioma">
-      <span>Inglés</span>
-      <div class="bar"><span style="width:70%"></span></div>
-      <small>Intermedio Avanzado(B2)</small>
-    </div>
-    <div class="idioma">
-      <span>Portugués</span>
-      <div class="bar"><span style="width:65%"></span></div>
-      <small>Intermedio (B1)</small>
-    </div>
-  </section>
-  <section class="redes">
-    <h3>Redes</h3>
-    <div class="social" aria-label="Redes sociales">
-      <a href="https://www.instagram.com/yeez.xbrs/" aria-label="Instagram" target="_blank" rel="noopener">
-        <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M7 2C4.2 2 2 4.2 2 7v10c0 2.8 2.2 5 5 5h10c2.8 0 5-2.2 5-5V7c0-2.8-2.2-5-5-5H7zm0 2h10c1.7 0 3 1.3 3 3v10c0 1.7-1.3 3-3 3H7c-1.7 0-3-1.3-3-3V7c0-1.7 1.3-3 3-3zm5 2.5A5.5 5.5 0 1 0 17.5 12 5.5 5.5 0 0 0 12 6.5zm0 2A3.5 3.5 0 1 1 8.5 12 3.5 3.5 0 0 1 12 8.5zm5.8-2.3a1.2 1.2 0 1 0 1.2 1.2 1.2 1.2 0 0 0-1.2-1.2z"/></svg>
-      </a>
-      <a href="https://www.facebook.com/jesus.briones.418637" aria-label="Facebook" target="_blank" rel="noopener">
-        <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M22 12a10 10 0 1 0-11.6 9.9v-7h-2v-3h2v-2.3c0-2 1.2-3.1 3-3.1.9 0 1.8.1 1.8.1v2h-1c-1 0-1.3.6-1.3 1.2V12h2.3l-.4 3h-1.9v7A10 10 0 0 0 22 12z"/></svg>
-      </a>
-      <a href="https://github.com/yeezxbrs" aria-label="GitHub" target="_blank" rel="noopener">
-        <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.5-1.3-1.2-1.6-1.2-1.6-1-.7.1-.7.1-.7 1.1.1 1.7 1.1 1.7 1.1 1 .1.7 2.1 2.9 1.5.1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.9 0-1.3.5-2.4 1.2-3.3-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11.3 11.3 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8.1 3.1.8.9 1.2 2 1.2 3.3 0 4.6-2.7 5.6-5.3 5.9.4.3.8 1 .8 2v3c0 .3.2.7.8.6A12 12 0 0 0 12 .5z"/></svg>
-      </a>
-      <a href="mailto:jangelgohanssj134@gmail.com" aria-label="Gmail">
-        <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M20 4H4a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h16a2 2 0 0 0 2-2V6c0-1.1-.9-2-2-2zm0 2v.5l-8 5-8-5V6h16zm0 12H4V8l8 5 8-5v10z"/></svg>
-      </a>
-    </div>
-  </section>
-</aside>
-    <main class="contenido" id="contenido">
-      <section id="sobre-mi" class="hero" aria-labelledby="tit-sobre">
-        <div class="avatar" aria-hidden="true">
-          <img src="data:image/jpg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAAAeAAD/4QOtaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA3LjEtYzAwMCA3OS45Y2NjNGRlOTMsIDIwMjIvMDMvMTQtMTQ6MDc6MjIgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MjcyNTFDMzA0NjdCMTFFRDlEQjNBNkVCQjI5N0QzQ0IiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MjcyNTFDMkY0NjdCMTFFRDlEQjNBNkVCQjI5N0QzQ0IiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgRXhwcmVzcyA0LjAuMC1kZXZlbG9wLjM4NCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjYxM0YxQjRFNDY3NTExRURBRjUwRjAxMjA5NjEyMzI2IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjYxM0YxQjRGNDY3NTExRURBRjUwRjAxMjA5NjEyMzI2Ii8+IDxkYzpjcmVhdG9yPiA8cmRmOlNlcT4gPHJkZjpsaT45MTkwMzkzNjE0NjQ0NzM8L3JkZjps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" alt="Foto de perfil" />
-        </div>
-        <div>
-          <h2 id="tit-sobre">Hola, soy Jesús.</h2>
-        <p>Diseñador y creador de interfaces con experiencia de un año, especializado en la experiencia y comodidad del usuario para navegacion de sistemas. Cuento con conocimientos sobre desarrollos de redes administrativas y servicios tecnicos para hardware y software de computadoras.  </p>
-          <div class="tags" aria-label="Etiquetas">
-            <span class="tag">Diseñador Frontend</span>
-            <span class="tag">Topología de redes</span>
-            <span class="tag">Tecnico en Sistemas</span>
-          </div>
-        </div>
-      </section>
-      <section id="experiencia" aria-labelledby="tit-exp">
-        <h2 id="tit-exp">Experiencia</h2>
-        <div class="items">
-          <article class="item">
-            <div>
-              <h4>Diseñador UX / UI — Sistema de Facturas EPAC</h4>
-              <ul>
+
+    <section id="sobre-mi">
+      <h2>Sobre mí</h2>
+      <p>Diseñador y creador de interfaces con experiencia de un año, especializado en la experiencia y comodidad del usuario para navegacion 
+          de sistemas. Cuento con conocimientos sobre desarrollos de redes administrativas y servicios tecnicos para hardware y software de 
+          computadoras.</p>
+    </section>
+
+    <section id="experiencia">
+      <h2>Experiencia</h2>
+        <strong>Diseñador UX/UI – EPAC (2025)</strong>
+        <ul>
                 <li>Diseñe interfaces para un sistema con funciones multiples</li>
                 <li>Integré los requerimientos necesarios que el cliente otorgó</li>
                 <li>Optimicé slides para claridad, ritmo visual y comprensión rápida.</li>
               </ul>
-            </div>
-            <div class="meta">San Nicolás de los Garza · 2025</div>
-          </article>
-
-          <article class="item">
-            <div>
-              <h4>Optimizacion de hardware y software</h4>
-              <ul>
+        <strong>Optimización de sistemas (2024)</strong>
+        <ul>
                 <li>Implemente un nuevo sistema para las computadoras de un negocio que no contenía un sistema.</li>
                 <li>Actualicé el hardware a las necesidades tecnicas del sistema dependiendo de las oportunidades del cliente.</li>
                 <li>Optimice el sistema operativo del cliente para mejor experiencia de usuario.</li>
               </ul>
-            </div>
-            <div class="meta">San Nicolás de los Garza · 2024</div>
-          </article>
-        </div>
-        
-      </section>
-      <section id="educacion" aria-labelledby="tit-edu">
-        <h2 id="tit-edu">Educación</h2>
-        <div class="items">
-          <article class="item">
-            <div>
-              <h4>Ingeniero Adminstrador de Sistemas</h4>
-              <ul>
+      </ul>
+    </section>
+
+    <section id="educacion">
+      <h2>Educación</h2>
+     <strong> FIME - UANL (2023 - Actualidad)</strong>
+        <ul>
                 <li>Desarrollador Frontend</li>
                 <li>Administrador de Proyectos</li>
                 <li>Técnico en Redes</li>
                 <li>Administrador de Bases de Datos</li>
               </ul>
-            </div>
-            <div class="meta">Facultad de Ingeniería Mecánica y Eléctrica - 2023</div>
-          </article>
-        </div>
-      </section>
-      <section id="habilidades" aria-labelledby="tit-skill">
-        <h2 id="tit-skill">Habilidades</h2>
-        <div class="skills">
-          <div class="skill">
-            <div class="label">Desarrollo Frontend</div>
-            <div class="bar"><span style="width:75%"></span></div>
-          </div>
-          <div class="skill">
-            <div class="label">Optimizacion de sistemas</div>
-            <div class="bar"><span style="width:80%"></span></div>
-          </div>
-          <div class="skill">
-            <div class="label">Creacion de topologías</div>
-            <div class="bar"><span style="width:65%"></span></div>
-          </div>
-          <div class="skill">
-            <div class="label">Trabajo en equipo</div>
-            <div class="bar"><span style="width:75%"></span></div>
-          </div>
-          <div class="skill">
-            <div class="label">Manejo y uso de TICs</div>
-            <div class="bar"><span style="width:100%"></span></div>
-          </div>
-        </div>
-      </section>
-      <section id="portafolio" aria-labelledby="tit-port">
-        <h2 id="tit-port">Portafolio</h2>
-        <div class="grid">
-           <article class="card">
-          <img src="https://scontent.fntr12-1.fna.fbcdn.net/v/t39.30808-6/572956283_2735021436846542_8211364958064645304_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeG81usLzceKhCOFK6OLQbirk2K9XW49qMGTYr1dbj2owYkRJuH7hu5O_kdfxTXsgL7VficGXIVcM8GLYPl8KeFO&_nc_ohc=TnI5Tr1IXfoQ7kNvwFEveDl&_nc_oc=AdlqzkWtZwjWXwfTD9fk1dUU8QB-C0ayaT2Lgt_ulSRkYcNz7KRVS_Cl5160a4VUGQGJePAgD2dFKtRe9HIFRet_&_nc_zt=23&_nc_ht=scontent.fntr12-1.fna&_nc_gid=tCpmrIu6MJgXTe5odpUvcA&oh=00_AfhwrRvyp6ujx3fKyb7FwFmyxCkZBZ-Scz_Csa5iK4Zxaw&oe=69148B7B" alt="Interfaces para Sistema EPAC" />
-          <div class="body">
-            <h4>Frontend para Sistema EPAC</h4>
-            <p>Diseño de interfaces  </p>
-            <a href="https://www.figma.com/design/8LDBppoxvzAuYimKBR1sLk/INTERFACES?node-id=0-1&p=f&t=RVgsp2Ikf0etp1v0-0"  target="_blank" aria-label="Ver proyecto Sistema EPAC">Ver proyecto</a>
-          </div>
-            </div>
-      </section>
-      <button onclick="Regresar()">Regresar</button>
-</body>
+        <strong>Preparatoria No. UANL 7(2018 - 2020)</strong>
+    </section>
 
+    <section id="habilidades">
+      <h2>Habilidades</h2>
+      <ul class="skills">
+        <li>Desarrollo Frontend</li>
+        <li>Optimización de sistemas</li>
+        <li>Creación de topologías</li>
+        <li>Trabajo en equipo</li>
+        <li>Manejo y uso de TICs</li>
+      </ul>
+    </section>
+
+    <section id="hobbies">
+  <h2>Hobbies</h2>
+  <ul>
+    <li>🎧 Escuchar música</li>
+    <li>🎮 Jugar videojuegos</li>
+    <li>💻 Practicar programación</li>
+  </ul>
+</section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <ul>
+        <li>Teléfono: +52 81 82581338</li>
+        <li>Email: jangelgohanssj134@gmail.com</li>
+        <li>Ubicación: San Nicolás de los Garza, NL</li>
+      </ul>
+    </section>
+  </div>
+
+  <footer>
+    © 2025 · Jesús Briones
+    <div>
+      <button onclick="Regresar()" aria-label="Regresar a página principal">Regresar</button>
+    </div>
+  </footer>
+
+  <script>
+    function Regresar() {
+      window.location.href = "https://tharekg.github.io/equipo4/";
+    }
+    window.alert("Soy Jesús Ángel Briones Alfaro y esta es mi Actividad 5");
+  </script>
+</body>
 </html>
+
 
 
 
