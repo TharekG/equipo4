@@ -21,7 +21,6 @@ body{
 
 .container{max-width:var(--max-width);margin:0 auto;padding:20px}
 
-/* Header */
 .site-header{
   background:linear-gradient(90deg,var(--uanl-blue), #0b47b2);
   color:#fff;
@@ -46,20 +45,18 @@ body{
   padding:8px 10px;border-radius:8px;
 }
 
-/* Hero */
 .hero{padding:28px 0 10px}
 .hero h1{margin:0 0 8px;color:var(--uanl-blue)}
 .hero p{margin:0;color:var(--muted)}
 
-/* Sections */
 .section{margin-top:18px;margin-bottom:22px}
 .section h2{color:var(--uanl-blue);margin-bottom:14px}
 
-/* Grid */
+
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
 .grid-3{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
 
-/* Cards */
+
 .card{
   background:var(--card);
   border-radius:var(--radius);
@@ -82,7 +79,6 @@ body{
 .meta-list{list-style:none;padding:0;margin:6px 0 0;color:var(--muted);font-size:14px}
 .meta-list li{margin:6px 0}
 
-/* Actions */
 .card-actions{margin-top:auto;display:flex;gap:10px}
 .btn{
   background:var(--uanl-blue);
@@ -94,21 +90,42 @@ body{
   background:transparent;border:1px solid #d8dbe0;padding:10px 12px;border-radius:10px;color:#333;text-decoration:none;font-weight:700;
 }
 
-/* Recommended / highlight */
+
 .recommended{margin-top:28px;padding:14px;border-radius:14px;background:linear-gradient(180deg,rgba(203,161,53,0.06),rgba(255,255,255,0.0))}
 .card.highlight{border:1px solid rgba(203,161,53,0.18);box-shadow:0 12px 30px rgba(203,161,53,0.06)}
 .ribbon{
   position:absolute;right:-30px;top:12px;background:var(--uanl-gold);color:#07203b;padding:6px 64px;transform:rotate(25deg);font-weight:800;box-shadow:0 6px 12px rgba(203,161,53,0.12)
 }
 
-/* Footer */
 .site-footer{margin-top:28px;padding:18px 0;background:transparent;color:var(--muted)}
 .footer-inner{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
 .site-footer small{color:var(--muted)}
 
-/* Responsive tweaks */
 @media (max-width:700px){
   .header-inner{flex-direction:column;align-items:flex-start}
   .top-nav{display:flex;flex-wrap:wrap;gap:8px}
   .ribbon{display:none}
+}
+
+.volver-menu {
+  text-align: left;
+  margin: 25px 0;
+  }
+  
+.volver-menu a {
+  display: inline-block;
+  padding: 12px 20px;
+  background: #d12828;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: background .25s, transform .2s;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  margin: 0 0 20px 25px;
+}
+
+.volver-menu a:hover {
+  background: #7e1d1d;
+  transform: translateY(-2px);
 }
