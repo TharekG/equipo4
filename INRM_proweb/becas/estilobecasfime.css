@@ -134,3 +134,26 @@ body{
   border-left:5px solid #fbbf24;
   box-shadow:0 0 12px #fbbf24;
 }
+
+.volver-menu {
+  text-align: left;
+  margin: 25px 0;
+  }
+
+.volver-menu a {
+  display: inline-block;
+  padding: 12px 20px;
+  background: #d12828;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: background .25s, transform .2s;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  margin: 0 0 20px 25px;
+}
+
+.volver-menu a:hover {
+  background: #7e1d1d;
+  transform: translateY(-2px);
+}
