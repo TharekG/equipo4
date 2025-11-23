@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jesús Briones - CV</title>
-  <!-- Fuente moderna -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <style>
     :root {
@@ -120,10 +119,36 @@
       cursor: pointer;
     }
     footer button:hover { background: #1f4ed8; }
+    
+    .volver-menu {
+    text-align: left;
+    margin: 25px 0;
+    }
+
+    .volver-menu a {
+      display: inline-block;
+      padding: 12px 20px;
+      background: #d12828;
+      color: #fff;
+      font-weight: 600;
+      border-radius: 10px;
+      text-decoration: none;
+      transition: background .25s, transform .2s;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      margin: 0 0 20px 25px;
+    }
+
+    .volver-menu a:hover {
+      background: #7e1d1d;
+      transform: translateY(-2px);
+    }
   </style>
 </head>
 <body>
   <header>
+    <div class="volver-menu">
+      <a href="../index.html" onclick="cerrarPagina(event)"> Regresar al menú</a>
+    </div>
     <h1>Jesús Ángel Briones Alfaro</h1>
     <small>Ingeniero Administrador de Sistemas</small>
     <nav>
@@ -205,22 +230,27 @@
       </ul>
     </section>
   </div>
-
-  <footer>
-    © 2025 · Jesús Briones
-    <div>
-      <button onclick="Regresar()" aria-label="Regresar a página principal">Regresar</button>
-    </div>
-  </footer>
-
+  </script>
+  <div class="volver-menu">
+    <a href="../index.html" onclick="cerrarPagina(event)"> Regresar al menú</a>
+  </div>
   <script>
-    function Regresar() {
-      window.location.href = "https://tharekg.github.io/equipo4/";
+    function cerrarPagina(event) {
+      event.preventDefault(); 
+      const ok = confirm('¿Deseas regresar al menú?');
+      if (!ok) return;
+      window.location.href = "../../index.html"; 
     }
-    window.alert("Soy Jesús Ángel Briones Alfaro y esta es mi Actividad 5");
+  </script>
+  <script>
+    window.onload = function() {
+      alert("Bienvenido(a), Esta es la Actividad #1 de Jesús Ángel Briones Alfaro");
+    };
   </script>
 </body>
 </html>
+
+
 
 
 
