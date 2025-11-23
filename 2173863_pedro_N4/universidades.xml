@@ -1,42 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<universidades carrera="Ingeniero Administrador de Sistemas">
-  <universidad tipo="nacional">
-    <nombre>Universidad Autónoma de Nuevo León (UANL)</nombre>
-    <facultad>Facultad de Ingeniería Mecánica y Eléctrica (FIME)</facultad>
-    <programa>Ingeniero Administrador de Sistemas</programa>
-    <ubicacion>San Nicolás de los Garza, Nuevo León, México</ubicacion>
-    <pagina>https://www.uanl.mx/oferta/ingeniero-administrador-de-sistemas/</pagina>
-    <requisitos>
-      <requisito>Haber concluido el bachillerato en el área físico-matemática o equivalente.</requisito>
-      <requisito>Presentar y aprobar el Examen de Admisión de la UANL.</requisito>
-      <requisito>Participar en el curso propedéutico establecido por la facultad.</requisito>
-      <requisito>Entregar documentación oficial (acta de nacimiento, CURP, certificado de estudios).</requisito>
-    </requisitos>
-  </universidad>
+<ProgramaMovilidad>
+  <FacultadOrigen>Facultad de Ingeniería Mecánica y Eléctrica (FIME)</FacultadOrigen>
+  <Carrera>Ingeniero Administrador de Sistemas (IAS)</Carrera>
 
-  <universidad tipo="nacional">
-    <nombre>Universidad Metropolitana de Monterrey (UMM)</nombre>
-    <programa>Ingeniero Administrador de Sistemas</programa>
-    <ubicacion>Monterrey, Nuevo León, México</ubicacion>
-    <pagina>https://www.umm.edu.mx/profesional/ingeniero-administrador-de-sistemas</pagina>
-    <requisitos>
-      <requisito>Acta de nacimiento actualizada.</requisito>
-      <requisito>Certificado de bachillerato legalizado o constancia de estudios concluidos.</requisito>
-      <requisito>Entrevista de admisión con el área académica.</requisito>
-      <requisito>Pago de inscripción y entrega de documentos originales.</requisito>
-    </requisitos>
-  </universidad>
+  <RequisitosGeneralesUANL>
+    <Requisito id="RG01">Estar inscrito en el Departamento Escolar y de Archivo de la UANL y en la escuela o facultad correspondiente, en el periodo escolar en el que se realice.</Requisito>
+    <Requisito id="RG02">Ser alumno regular y contar con promedio mínimo de 85.</Requisito>
+    <Requisito id="RG03">Contar con el documento de postulación de su escuela o facultad.</Requisito>
+    <Requisito id="RG04">Registrar la carga horaria en la escuela o facultad durante el periodo escolar en el que se realice la movilidad académica.</Requisito>
+    <Requisito id="RG05">Haber cursado y aprobado un mínimo de 50% de los créditos académicos del plan de estudios.</Requisito>
+    <Requisito id="RG06">Cursar unidades de aprendizaje equivalentes al plan de estudios.</Requisito>
+    <Requisito id="RG07">Cursar al menos la carga horaria mínima del plan de estudios correspondiente.</Requisito>
+    <Requisito id="RG08">Comprobar el dominio del idioma establecido en el convenio o por la institución receptora.</Requisito>
+    <Requisito id="RG09">No haber participado anteriormente en un programa de movilidad con reconocimiento de créditos.</Requisito>
+    <Requisito id="RG10">Entregar solicitud y realizar los trámites que establezca el Área de Movilidad Académica.</Requisito>
+    <Requisito id="RG11">Cubrir los pagos correspondientes.</Requisito>
+    <Requisito id="RG12">Aprobar estudios médicos y psicológicos requeridos.</Requisito>
+    <Requisito id="RG13">Cumplir los demás puntos establecidos por la convocatoria.</Requisito>
+  </RequisitosGeneralesUANL>
 
-  <universidad tipo="internacional">
-    <nombre>University of Texas at Austin</nombre>
-    <programa>Bachelor of Science in Information Systems and Computer Science</programa>
-    <ubicacion>Austin, Texas, Estados Unidos</ubicacion>
-    <pagina>https://admissions.utexas.edu/info-for/international-students/</pagina>
-    <requisitos>
-      <requisito>Enviar solicitud completa mediante Common App o ApplyTexas.</requisito>
-      <requisito>Historial académico traducido al inglés y certificado.</requisito>
-      <requisito>Demostrar dominio del inglés (TOEFL iBT ≥ 79 o IELTS ≥ 6.5).</requisito>
-      <requisito>Ensayo personal y posibles cartas de recomendación académica.</requisito>
-    </requisitos>
-  </universidad>
-</universidades>
+  <UniversidadesDestino>
+    <Universidad tipo="Nacional">
+      <Nombre>Universidad Autónoma de Nuevo León (UANL)</Nombre>
+      <Ubicacion>San Nicolás de los Garza, Nuevo León, México</Ubicacion>
+      <EnfoqueCarrera>Ingeniero Administrador de Sistemas</EnfoqueCarrera>
+      <Pagina>https://www.uanl.mx/oferta/ingeniero-administrador-de-sistemas/</Pagina>
+      <RequisitosEspecificos>
+        <Requisito id="N1E01">Haber concluido el bachillerato en el área físico-matemática o equivalente.</Requisito>
+        <Requisito id="N1E02">Presentar y aprobar el Examen de Admisión de la UANL.</Requisito>
+        <Requisito id="N1E03">Participar en el curso propedéutico establecido por la facultad.</Requisito>
+        <Requisito id="N1E04">Entregar documentación oficial (acta de nacimiento, CURP, certificado de estudios).</Requisito>
+      </RequisitosEspecificos>
+    </Universidad>
+
+    <Universidad tipo="Nacional">
+      <Nombre>Universidad Metropolitana de Monterrey (UMM)</Nombre>
+      <Ubicacion>Monterrey, Nuevo León, México</Ubicacion>
+      <EnfoqueCarrera>Ingeniero Administrador de Sistemas</EnfoqueCarrera>
+      <Pagina>https://www.umm.edu.mx/profesional/ingeniero-administrador-de-sistemas</Pagina>
+      <RequisitosEspecificos>
+        <Requisito id="N2E01">Acta de nacimiento actualizada.</Requisito>
+        <Requisito id="N2E02">Certificado de bachillerato legalizado o constancia de estudios concluidos.</Requisito>
+        <Requisito id="N2E03">Entrevista de admisión con el área académica.</Requisito>
+        <Requisito id="N2E04">Pago de inscripción y entrega de documentos originales.</Requisito>
+      </RequisitosEspecificos>
+    </Universidad>
+
+    <Universidad tipo="Internacional">
+      <Nombre>University of Texas at Austin</Nombre>
+      <Ubicacion>Austin, Texas, Estados Unidos</Ubicacion>
+      <EnfoqueCarrera>Bachelor of Science in Information Systems and Computer Science</EnfoqueCarrera>
+      <Pagina>https://admissions.utexas.edu/info-for/international-students/</Pagina>
+      <RequisitosEspecificos>
+        <Requisito id="I1E01">Enviar solicitud completa mediante Common App o ApplyTexas.</Requisito>
+        <Requisito id="I1E02">Historial académico traducido al inglés y certificado.</Requisito>
+        <Requisito id="I1E03">Demostrar dominio del inglés (TOEFL iBT ≥ 79 o IELTS ≥ 6.5).</Requisito>
+        <Requisito id="I1E04">Ensayo personal y posibles cartas de recomendación académica.</Requisito>
+      </RequisitosEspecificos>
+    </Universidad>
+  </UniversidadesDestino>
+</ProgramaMovilidad>
