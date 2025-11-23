@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <ProgramaMovilidad>
   <FacultadOrigen>Facultad de Ingeniería Mecánica y Eléctrica (FIME)</FacultadOrigen>
   <Carrera>Ingeniero Administrador de Sistemas (IAS)</Carrera>
@@ -22,6 +23,7 @@
     <Universidad tipo="Nacional">
       <Nombre>Universidad Estatal de Sonora</Nombre>
       <Ubicacion>Sonora, México</Ubicacion>
+      <Pagina>https://ues.sonora.edu.mx/index.php?option=com_sppagebuilder&amp;view=page&amp;id=51</Pagina>
       <EnfoqueCarrera>Ingeniería y Administración de Sistemas</EnfoqueCarrera>
       <RequisitosEspecificos>
         <Requisito id="N1E01">Promedio mínimo de 85.</Requisito>
@@ -34,6 +36,7 @@
     <Universidad tipo="Nacional">
       <Nombre>Universidad Autónoma de Tlaxcala</Nombre>
       <Ubicacion>Tlaxcala, México</Ubicacion>
+      <Pagina>https://uatx.mx/</Pagina>
       <EnfoqueCarrera>Administración, Ingeniería y Tecnología</EnfoqueCarrera>
       <RequisitosEspecificos>
         <Requisito id="N2E01">Promedio mínimo de 85.</Requisito>
@@ -46,6 +49,7 @@
     <Universidad tipo="Internacional">
       <Nombre>Universidad de Kannur</Nombre>
       <Ubicacion>Kannur, India</Ubicacion>
+      <Pagina>https://www.kannuruniversity.ac.in/en/</Pagina>
       <EnfoqueCarrera>Colaboración Académica, Científica y Cultural</EnfoqueCarrera>
       <RequisitosEspecificos>
         <Requisito id="I1E01">Promedio mínimo de 85.</Requisito>
@@ -58,3 +62,4 @@
     </Universidad>
   </UniversidadesDestino>
 </ProgramaMovilidad>
+
