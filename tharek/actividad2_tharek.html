@@ -7,7 +7,7 @@
 <style>
   :root{
     --ink:#0f172a; --muted:#1e2430; --line:#e5e7eb;
-    --bg:#1d62a7; --card:#fff; --brand:#1d4ed8;
+    --bg:#2590fa; --card:#fff; --brand:#1d4ed8;
   }
   *{box-sizing:border-box}
   body{margin:0; font:16px/1.55 system-ui, -apple-system, Segoe UI, Roboto, Arial;}
@@ -15,13 +15,13 @@
   header{padding:24px 0 8px}
   h1{margin:0 0 6px; font-size:28px; color:var(--ink)}
   p.lead{margin:0; color:var(--muted)}
-  /* sección */
+
   .section{margin-top:22px}
   .section h2{
     font-size:20px; margin:0 0 12px; color:var(--ink);
     border-left:4px solid var(--brand); padding-left:10px;
   }
-  /* tarjeta */
+
   .card{
     background:var(--card); border:1px solid var(--line); border-radius:10px;
     padding:14px 16px; margin-bottom:12px;
@@ -33,16 +33,42 @@
   a{color:var(--brand); text-decoration:none}
   a:hover{text-decoration:underline}
   footer{color:var(--muted); font-size:14px; margin:22px 0}
+
+  .volver-menu {
+    text-align: left;
+    margin: 25px 0;
+    }
+
+  .volver-menu a {
+    display: inline-block;
+    padding: 12px 20px;
+    background: #d12828;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: background .25s, transform .2s;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    margin: 0 0 20px 25px;
+  }
+
+  .volver-menu a:hover {
+    background: #7e1d1d;
+    transform: translateY(-2px);
+  }
+
 </style>
 </head>
 <body style="background:var(--bg)">
+  <div class="volver-menu">
+    <a href="../index.html" onclick="cerrarPagina(event)"> Regresar al menú</a>
+  </div>
   <div class="wrap">
     <header>
       <h1>Programa de Becas</h1>
       <p class="lead">Opciones principales para estudiantes UANL.</p>
     </header>
 
-    <!-- 1) UNIVERSITARIAS -->
     <section class="section" id="universitarias">
       <h2>Becas Universitarias</h2>
 
@@ -106,7 +132,6 @@
       </article>
     </section>
 
-    <!-- 2) GOBIERNO -->
     <section class="section" id="gobierno">
       <h2>Becas de Gobierno</h2>
 
@@ -185,5 +210,23 @@
       </article>
     </section>
   </div>
+  <div class="volver-menu">
+    <a href="../index.html" onclick="cerrarPagina(event)"> Regresar al menú</a>
+  </div>
+  <script>
+    function cerrarPagina(event) {
+      event.preventDefault(); 
+      const ok = confirm('¿Deseas regresar al menú?');
+      if (!ok) return;
+      window.location.href = "../index.html"; 
+    }
+  </script>
+  <script>
+    window.onload = function() {
+      alert("Bienvenido(a), Esta es la Actividad #2 de Tharek Alexis García A.");
+    };
+  </script>
 </body>
 </html>
+
+
