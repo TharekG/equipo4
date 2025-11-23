@@ -1,16 +1,13 @@
-
-/* Definición de la Paleta de Colores Tierra */
 :root {
-    --color-base-claro: #fcfcf3; /* Blanco roto/Beige muy claro (Fondo de Tarjeta) */
-    --color-fondo-principal: #f5f5e8; /* Beige claro (Fondo del Body) */
-    --color-texto-oscuro: #3e2723; /* Marrón oscuro para texto */
-    --color-acento-tierra: #bcaaa4; /* Café claro/Gris piedra para acentos */
-    --color-principal-header: #795548; /* Café Medio (Header) */
+    --color-base-claro: #fcfcf3; 
+    --color-fondo-principal: #f5f5e8; 
+    --color-texto-oscuro: #3e2723;
+    --color-acento-tierra: #bcaaa4;
+    --color-principal-header: #795548;
 }
 
-/* 1. Reset y Estilos Generales */
 body {
-    font-family: 'Georgia', serif; /* Fuente elegante y legible */
+    font-family: 'Georgia', serif; 
     margin: 0;
     padding: 0;
     background-color: var(--color-fondo-principal); 
@@ -19,12 +16,11 @@ body {
 }
 
 .becas-container {
-    max-width: 1100px; /* Un poco más ancho */
+    max-width: 1100px; 
     margin: 20px auto;
     padding: 0 25px;
 }
 
-/* 2. Encabezado */
 .main-header {
     background-color: var(--color-principal-header); 
     color: var(--color-base-claro);
@@ -36,7 +32,7 @@ body {
 .main-header h1 {
     margin: 0;
     font-size: 2.8em;
-    font-weight: 300; /* Fuente más delgada para elegancia */
+    font-weight: 300; 
     letter-spacing: 2px;
 }
 
@@ -47,14 +43,13 @@ body {
     color: #f0e0d6;
 }
 
-/* 3. Estilos de las Secciones de Categoría (Grid) */
 .category-section {
     margin-bottom: 40px;
     background-color: var(--color-base-claro);
     padding: 30px;
     border-radius: 12px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    border-top: 6px solid var(--color-acento-tierra); /* Detalle elegante en la parte superior */
+    border-top: 6px solid var(--color-acento-tierra);
 }
 
 .category-section h2 {
@@ -75,7 +70,6 @@ body {
     color: var(--color-acento-tierra); 
 }
 
-/* 4. Estilos de las Tarjetas de Beca (Usando Flexbox) */
 .beca-card {
     display: flex;
     flex-direction: column;
@@ -113,7 +107,6 @@ body {
     margin-bottom: 15px;
 }
 
-/* 5. Listas de Requisitos */
 .beca-card ul {
     list-style: none;
     padding: 0;
@@ -131,5 +124,27 @@ body {
     position: absolute;
     left: 0;
     font-size: 1.1em;
-    color: var(--color-principal-header); /* Check en el color principal */
+    color: var(--color-principal-header); 
+}
+.volver-menu {
+    text-align: left;
+    margin: 25px 0;
+}
+
+.volver-menu a {
+    display: inline-block;
+    padding: 12px 20px;
+    background: #d12828;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: background .25s, transform .2s;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    margin: 0 0 20px 25px;
+}
+
+.volver-menu a:hover {
+    background: #7e1d1d;
+    transform: translateY(-2px);
 }
