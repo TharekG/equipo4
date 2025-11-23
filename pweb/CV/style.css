@@ -33,7 +33,6 @@ body{
   margin:12px auto;
 }
 
-/* Tarjeta lateral */
 .card{
   background:var(--card);
   border-radius:var(--radius);
@@ -97,7 +96,6 @@ h1{
   font-size:13px;
 }
 
-/* Tarjeta principal */
 .main{
   background:var(--card);
   border-radius:var(--radius);
@@ -181,7 +179,6 @@ footer.note{
   text-align:right;
 }
 
-/* Responsive */
 @media (max-width:880px){
   .container{grid-template-columns:1fr; padding:0 4px}
   .profile{flex-direction:row; text-align:left; gap:12px}
@@ -190,9 +187,31 @@ footer.note{
   .main{padding:18px}
 }
 
-/* Para imprimir */
 @media print{
   body{background:white; padding:0}
   .container{box-shadow:none}
   a[href]:after {content: " (" attr(href) ")";}
+}
+
+.volver-menu {
+  text-align: left;
+  margin: 25px 0;
+  }
+  
+.volver-menu a {
+  display: inline-block;
+  padding: 12px 20px;
+  background: #d12828;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: background .25s, transform .2s;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  margin: 0 0 20px 25px;
+}
+
+.volver-menu a:hover {
+  background: #7e1d1d;
+  transform: translateY(-2px);
 }
