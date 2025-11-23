@@ -65,9 +65,35 @@
     .idioma{ display:flex; gap:16px; flex-wrap: wrap; }
     .tag{ background:#f1f5f9; border:1px solid #e2e8f0; padding:8px 12px; border-radius: 10px; font-size:16px; }
 
+    .volver-menu {
+    text-align: left;
+    margin: 25px 0;
+    }
+
+    .volver-menu a {
+      display: inline-block;
+      padding: 12px 20px;
+      background: #d12828;
+      color: #fff;
+      font-weight: 600;
+      border-radius: 10px;
+      text-decoration: none;
+      transition: background .25s, transform .2s;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      margin: 0 0 20px 25px;
+    }
+
+    .volver-menu a:hover {
+      background: #7e1d1d;
+      transform: translateY(-2px);
+    }
+
   </style>
 </head>
 <body>
+  <div class="volver-menu">
+    <a href="../index.html" onclick="cerrarPagina(event)"> Regresar al menú</a>
+  </div>
   <main class="pagina">
     <section class="contenedor">
       <aside class="lateral">
@@ -156,5 +182,23 @@
       </section>
     </section>
   </main>
+  <div class="volver-menu">
+    <a href="../index.html" onclick="cerrarPagina(event)"> Regresar al menú</a>
+  </div>
+  <script>
+    function cerrarPagina(event) {
+      event.preventDefault(); 
+      const ok = confirm('¿Deseas regresar al menú?');
+      if (!ok) return;
+      window.location.href = "../../index.html"; 
+    }
+  </script>
+  <script>
+    window.onload = function() {
+      alert("Bienvenido(a), Esta es la Actividad #1 de Tharek Alexis García A.");
+    };
+  </script>
+
 </body>
 </html>
+
