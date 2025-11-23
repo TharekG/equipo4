@@ -59,9 +59,9 @@
     .btn:active { transform: translateY(1px); }
     .btn-primary { background: var(--primary); border-color: transparent; color: #061120; }
     .btn-primary:hover { filter: brightness(1.05); }
-    /* Hero */
+
     .hero {
-      padding-top: 96px; /* space for fixed bar */
+      padding-top: 96px; 
       display: grid;
       place-items: center;
       text-align: center;
@@ -144,7 +144,7 @@
 
   <main class="container">
     <section class="grid">
-      <!-- Gobierno 1 -->
+
       <article class="card">
         <span class="tag">Gobierno</span>
         <h2>1) Beca de Educación Superior “Jóvenes Escribiendo el Futuro”</h2>
@@ -153,7 +153,7 @@
         <p><a class="more" href="https://programasparaelbienestar.gob.mx/beca-bienestar-benito-juarez-educacion-superior/" target="_blank" rel="noopener">Más información</a></p>
         <p class="apply">Puedes aplicar: <strong>SÍ</strong>, si estás inscrito en universidad pública.</p>
       </article>
-      <!-- Gobierno 2 -->
+
       <article class="card">
         <span class="tag">Gobierno</span>
         <h2>2) Beca Universal de Educación Media Superior Benito Juárez</h2>
@@ -162,7 +162,7 @@
         <p><a class="more" href="https://www.becabenitojuarez.gob.mx/" target="_blank" rel="noopener">Más información</a></p>
         <p class="apply">Puedes aplicar: <strong>SOLO</strong> si cursas <strong>medio superior</strong> en escuela pública.</p>
       </article>
-      <!-- Privada 1 -->
+
       <article class="card">
         <span class="tag">Institución Privada</span>
         <h2>3) Fundación BBVA – “Becas BBVA para Chavos que Inspiran”</h2>
@@ -171,7 +171,7 @@
         <p><a class="more" href="https://www.fundacionbbva.mx/becas-bbva-para-chavos-que-inspiran/" target="_blank" rel="noopener">Más información</a></p>
         <p class="apply">Puedes aplicar: <strong>SÍ</strong>, si estás iniciando licenciatura.</p>
       </article>
-      <!-- Privada 2 -->
+
       <article class="card">
         <span class="tag">Institución Privada</span>
         <h2>4) Fundación Telmex‑Telcel</h2>
@@ -180,7 +180,7 @@
         <p><a class="more" href="https://www.fundaciontelmextelcel.org/becas" target="_blank" rel="noopener">Más información</a></p>
         <p class="apply">Puedes aplicar: <strong>SÍ</strong>, si ya cursas universidad.</p>
       </article>
-      <!-- Universidad 1 -->
+
       <article class="card">
         <span class="tag">Universidad</span>
         <h2>5) Universidad La Salle CDMX – Becas de Apoyo y Continuidad</h2>
@@ -189,7 +189,7 @@
         <p><a class="more" href="https://lasalle.mx/oferta-educativa/becas/" target="_blank" rel="noopener">Más información</a></p>
         <p class="apply">Puedes aplicar: <strong>SÍ</strong>, si eres o planeas ser alumno de La Salle.</p>
       </article>
-      <!-- Universidad 2 -->
+
       <article class="card">
         <span class="tag">Universidad</span>
         <h2>6) UNAM – Programa de Becas Internas</h2>
@@ -203,21 +203,23 @@
 
   <footer>© 2025 — Becas Disponibles</footer>
 
+<script>
+  document.getElementById('btnInicio').addEventListener('click', function () {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+
+  document.getElementById('btnSalir').addEventListener('click', function () {
+    const ok = confirm('¿Seguro que deseas regresar al menú?');
+    if (!ok) return;
+    window.location.href = "../index.html";
+  });
+</script>
   <script>
-    // Botón Inicio (scroll suave al top)
-    document.getElementById('btnInicio').addEventListener('click', function () {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    });
-    // Botón Salir con confirmación y alerta si no se puede cerrar
-    document.getElementById('btnSalir').addEventListener('click', function () {
-      const ok = confirm('¿Seguro que deseas salir?');
-      if (!ok) return;
-      window.close();
-      setTimeout(function(){
-        alert('No se puede cerrar esta pestaña automáticamente. Puedes cerrarla manualmente.');
-      }, 300);
-    });
+    window.onload = function() {
+      alert("Bienvenido(a), Esta es la Actividad #2 de Pedro Bautista Miranda");
+    };
   </script>
 </body>
 </html>
+
 
