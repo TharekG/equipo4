@@ -161,18 +161,38 @@ padding: 0 1rem;
 .boton-centro button:hover {
   background: var(--primary-ink);
 }
+
+    .volver-menu {
+    text-align: left;
+    margin: 25px 0;
+    }
+
+    .volver-menu a {
+      display: inline-block;
+      padding: 12px 20px;
+      background: #d12828;
+      color: #fff;
+      font-weight: 600;
+      border-radius: 10px;
+      text-decoration: none;
+      transition: background .25s, transform .2s;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      margin: 0 0 20px 25px;
+    }
+
+    .volver-menu a:hover {
+      background: #7e1d1d;
+      transform: translateY(-2px);
+    }
+
   </style>
-  <script>
-    window.alert("Soy Jesus Angel Briones Alfaro y esta es mi Actividad 6");
-    function Regresar() {
-    
-    window.location.href = "https://tharekg.github.io/equipo4/";
-  }
-  </script>
 </head>
 <body>
   <header class="uanl-header">
   <div class="header-overlay">
+    <div class="volver-menu">
+      <a href="../index.html" onclick="cerrarPagina(event)"> Regresar al menú</a>
+    </div>
     <div class="header-content">
       <div class="logo-text">
         <h1>Programa de Becas</h1>
@@ -290,13 +310,27 @@ padding: 0 1rem;
         <p><strong>Para mas informacion: </strong> <a href="https://becasbenitojuarezmx.com/becas-jovenes-construyendo-el-futuro/" target="_blank">Becas Jóvenes Construyendo el Futuro</a></p>
     </div>
     </section>
-     
   </main>
-  <div class="boton-centro">
-  <button onclick="Regresar()">Regresar</button>
+  <div class="volver-menu">
+    <a href="../index.html" onclick="cerrarPagina(event)"> Regresar al menú</a>
   </div>
+  <script>
+    function cerrarPagina(event) {
+      event.preventDefault(); 
+      const ok = confirm('¿Deseas regresar al menú?');
+      if (!ok) return;
+      window.location.href = "../../index.html"; 
+    }
+  </script>
+  <script>
+    window.onload = function() {
+      alert("Bienvenido(a), Esta es la Actividad #2 de Jesús Ángel Briones Alfaro");
+    };
+  </script>
 </body>
 </html>
+
+
 
 
 
