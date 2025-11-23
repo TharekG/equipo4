@@ -1,196 +1,418 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ProgramasMovilidad>
 
-  <ProgramaMovilidad>
+  <TharekAlexisGarciaA>
     <FacultadOrigen>Facultad de Ingeniería Mecánica y Eléctrica (FIME)</FacultadOrigen>
     <Carrera>Ingeniero Administrador de Sistemas (IAS)</Carrera>
 
     <RequisitosGeneralesUANL>
-      <Requisito id="RG01">Ser estudiante regular (sin adeudo de materias).</Requisito>
-      <Requisito id="RG02">Haber cursado y aprobado un mínimo del 50% de los créditos de la carrera.</Requisito>
-      <Requisito id="RG03">Contar con un promedio general mínimo de 85/100.</Requisito>
-      <Requisito id="RG04">Aprobar los estudios médicos y psicológicos solicitados.</Requisito>
-      <Requisito id="RG05">Entregar documentación completa en tiempo y forma.</Requisito>
-      <Requisito id="RG06">Cubrir el seguro de gastos médicos (nacional o internacional, según destino).</Requisito>
-    </RequisitosGeneralesUANL>
-
-    <UniversidadesDestino>
-      <Universidad tipo="Nacional">
-        <Nombre>Universidad Autónoma de Baja California (UABC)</Nombre>
-        <Ubicacion>Mexicali, Baja California, México</Ubicacion>
-        <EnfoqueCarrera>Ingeniería en Computación</EnfoqueCarrera>
-      </Universidad>
-
-      <Universidad tipo="Nacional">
-        <Nombre>Instituto Tecnológico de Matamoros (ITM)</Nombre>
-        <Ubicacion>Matamoros, Tamaulipas, México</Ubicacion>
-        <EnfoqueCarrera>Ingeniería en Sistemas Computacionales</EnfoqueCarrera>
-      </Universidad>
-
-      <Universidad tipo="Internacional">
-        <Nombre>Carnegie Mellon University (CMU)</Nombre>
-        <Ubicacion>Pensilvania, Estados Unidos</Ubicacion>
-        <EnfoqueCarrera>Bachelor of Science in Information Systems (IS)</EnfoqueCarrera>
-      </Universidad>
-    </UniversidadesDestino>
-  </ProgramaMovilidad>
-
-
-  <ProgramaMovilidad>
-    <FacultadOrigen>Facultad de Ingeniería Mecánica y Eléctrica (FIME)</FacultadOrigen>
-
-    <RequisitosGeneralesUANL>
-      <Requisito id="RG01">Ser estudiante regular.</Requisito>
-      <Requisito id="RG02">Haber cursado y aprobado un mínimo del 50% de créditos.</Requisito>
-      <Requisito id="RG03">Promedio mínimo general de 85/100.</Requisito>
-    </RequisitosGeneralesUANL>
-
-    <UniversidadesDestino>
-      <Universidad tipo="Internacional">
-        <Nombre>Kumamoto University</Nombre>
-        <Ubicacion>Japón</Ubicacion>
-        <EnfoqueCarrera>Ingeniería y Tecnología Avanzada</EnfoqueCarrera>
-      </Universidad>
-
-      <Universidad tipo="Nacional">
-        <Nombre>Universidad de Guadalajara (UdG)</Nombre>
-        <Ubicacion>Guadalajara, Jalisco, México</Ubicacion>
-        <EnfoqueCarrera>CUCEI o CUCEA para Sistemas</EnfoqueCarrera>
-      </Universidad>
-
-      <Universidad tipo="Nacional">
-        <Nombre>Instituto Politécnico Nacional (IPN)</Nombre>
-        <Ubicacion>Ciudad de México, México</Ubicacion>
-        <EnfoqueCarrera>Ingeniería en Sistemas Computacionales o afín</EnfoqueCarrera>
-      </Universidad>
-    </UniversidadesDestino>
-  </ProgramaMovilidad>
-
-
-  <ProgramaMovilidad>
-    <FacultadOrigen>Facultad de Ingeniería Mecánica y Eléctrica (FIME)</FacultadOrigen>
-    <Carrera>Ingeniero Administrador de Sistemas (IAS)</Carrera>
-
-    <RequisitosGeneralesUANL>
-      <Requisito id="RG01">Ser estudiante regular.</Requisito>
-      <Requisito id="RG02">Haber aprobado el 50% de créditos.</Requisito>
-      <Requisito id="RG03">Promedio mínimo de 85/100.</Requisito>
-    </RequisitosGeneralesUANL>
-
-    <UniversidadesDestino>
-      <Universidad tipo="Nacional">
-        <Nombre>Instituto Politécnico Nacional (IPN)</Nombre>
-        <Ubicacion>Ciudad de México, México</Ubicacion>
-        <EnfoqueCarrera>Ingeniería en Sistemas Computacionales o Informática Administrativa</EnfoqueCarrera>
-      </Universidad>
-
-      <Universidad tipo="Nacional">
-        <Nombre>Universidad de Guadalajara (UdG)</Nombre>
-        <Ubicacion>Guadalajara, Jalisco, México</Ubicacion>
-        <EnfoqueCarrera>Ingeniería en Sistemas o Ingeniería Industrial y de Sistemas</EnfoqueCarrera>
-      </Universidad>
-
-      <Universidad tipo="Internacional">
-        <Nombre>Universidad Técnica de Múnich (TUM)</Nombre>
-        <Ubicacion>Múnich, Alemania</Ubicacion>
-        <EnfoqueCarrera>Sistemas de Información, Ingeniería y Gestión</EnfoqueCarrera>
-      </Universidad>
-    </UniversidadesDestino>
-  </ProgramaMovilidad>
-
-
-  <ProgramaMovilidad>
-    <FacultadOrigen>Facultad de Ingeniería Mecánica y Eléctrica (FIME)</FacultadOrigen>
-    <Carrera>Ingeniero Administrador de Sistemas (IAS)</Carrera>
-
-    <UniversidadesDestino>
-      <Universidad tipo="Nacional">
-        <Nombre>Universidad Autónoma de San Luis Potosí (UASLP)</Nombre>
-        <Ubicacion>San Luis Potosí, México</Ubicacion>
-        <EnfoqueCarrera>Ingeniería en Sistemas Computacionales o Ingeniería Administrativa</EnfoqueCarrera>
-      </Universidad>
-
-      <Universidad tipo="Nacional">
-        <Nombre>Universidad Autónoma de Guerrero (UAG)</Nombre>
-        <Ubicacion>Chilpancingo, Guerrero, México</Ubicacion>
-        <EnfoqueCarrera>Ingeniería en Sistemas o Ingeniería Administrativa</EnfoqueCarrera>
-      </Universidad>
-
-      <Universidad tipo="Internacional">
-        <Nombre>Université Laval</Nombre>
-        <Ubicacion>Quebec, Canadá</Ubicacion>
-        <EnfoqueCarrera>Administración de Sistemas, Ingeniería de Software, Gestión Informática</EnfoqueCarrera>
-      </Universidad>
-    </UniversidadesDestino>
-  </ProgramaMovilidad>
-
-
-  <ProgramaMovilidad>
-    <FacultadOrigen>Facultad de Ingeniería Mecánica y Eléctrica (FIME)</FacultadOrigen>
-    <Carrera>Ingeniero Administrador de Sistemas (IAS)</Carrera>
-
-    <UniversidadesDestino>
-      <Universidad tipo="Nacional">
-        <Nombre>Instituto Politécnico Nacional (IPN)</Nombre>
-        <Ubicacion>Ciudad de México, México</Ubicacion>
-        <EnfoqueCarrera>Ingeniería en Sistemas Computacionales o Informática Administrativa</EnfoqueCarrera>
-      </Universidad>
-
-      <Universidad tipo="Nacional">
-        <Nombre>Universidad de Guadalajara (UdG)</Nombre>
-        <Ubicacion>Guadalajara, Jalisco, México</Ubicacion>
-        <EnfoqueCarrera>Ingeniería en Sistemas o Ingeniería Industrial y de Sistemas</EnfoqueCarrera>
-      </Universidad>
-
-      <Universidad tipo="Internacional">
-        <Nombre>Universidad de Nagoya</Nombre>
-        <Ubicacion>Nagoya, Aichi, Japón</Ubicacion>
-        <EnfoqueCarrera>Ingeniería de Sistemas, Computación y Tecnología</EnfoqueCarrera>
-      </Universidad>
-    </UniversidadesDestino>
-  </ProgramaMovilidad>
-
-
-  <ProgramaMovilidad>
-    <FacultadOrigen>Facultad de Ingeniería Mecánica y Eléctrica (FIME)</FacultadOrigen>
-    <Carrera>Ingeniero Administrador de Sistemas (IAS)</Carrera>
-
-    <RequisitosGeneralesUANL>
-      <Requisito id="RG01">Estar inscrito en el Departamento Escolar y de Archivo de la UANL y en la facultad correspondiente.</Requisito>
+      <Requisito id="RG01">Estar inscrito en el Departamento Escolar y de Archivo de la UANL y en la escuela o facultad correspondiente, en el periodo escolar en el que se realice.</Requisito>
       <Requisito id="RG02">Ser alumno regular y contar con promedio mínimo de 85.</Requisito>
-      <Requisito id="RG03">Contar con el documento de postulación.</Requisito>
-      <Requisito id="RG04">Registrar la carga horaria durante la movilidad.</Requisito>
-      <Requisito id="RG05">Haber aprobado al menos el 50% de los créditos.</Requisito>
-      <Requisito id="RG06">Cursar unidades equivalentes al plan de estudios.</Requisito>
-      <Requisito id="RG07">Cursar la carga horaria mínima del plan correspondiente.</Requisito>
-      <Requisito id="RG08">Comprobar dominio del idioma requerido.</Requisito>
-      <Requisito id="RG09">No haber participado anteriormente en movilidad con reconocimiento de créditos.</Requisito>
-      <Requisito id="RG10">Entregar solicitud y realizar trámites establecidos.</Requisito>
+      <Requisito id="RG03">Contar con el documento de postulación de su escuela o facultad.</Requisito>
+      <Requisito id="RG04">Registrar la carga horaria en la escuela o facultad durante el periodo escolar en el que se realice la movilidad académica.</Requisito>
+      <Requisito id="RG05">Haber cursado y aprobado un mínimo de 50% de los créditos académicos del plan de estudios.</Requisito>
+      <Requisito id="RG06">Cursar unidades de aprendizaje equivalentes al plan de estudios.</Requisito>
+      <Requisito id="RG07">Cursar al menos la carga horaria mínima del plan de estudios correspondiente.</Requisito>
+      <Requisito id="RG08">Comprobar el dominio del idioma establecido en el convenio o por la institución receptora.</Requisito>
+      <Requisito id="RG09">No haber participado anteriormente en un programa de movilidad con reconocimiento de créditos.</Requisito>
+      <Requisito id="RG10">Entregar solicitud y realizar los trámites que establezca el Área de Movilidad Académica.</Requisito>
       <Requisito id="RG11">Cubrir los pagos correspondientes.</Requisito>
       <Requisito id="RG12">Aprobar estudios médicos y psicológicos requeridos.</Requisito>
-      <Requisito id="RG13">Cumplir con los puntos de la convocatoria.</Requisito>
+      <Requisito id="RG13">Cumplir los demás puntos establecidos por la convocatoria.</Requisito>
     </RequisitosGeneralesUANL>
 
     <UniversidadesDestino>
       <Universidad tipo="Nacional">
         <Nombre>Universidad Estatal de Sonora</Nombre>
         <Ubicacion>Sonora, México</Ubicacion>
+        <Pagina>https://ues.sonora.edu.mx/index.php?option=com_sppagebuilder&amp;view=page&amp;id=51</Pagina>
         <EnfoqueCarrera>Ingeniería y Administración de Sistemas</EnfoqueCarrera>
+        <RequisitosEspecificos>
+          <Requisito id="N1E01">Promedio mínimo de 85.</Requisito>
+          <Requisito id="N1E02">50% de créditos cursados y aprobados.</Requisito>
+          <Requisito id="N1E03">Cumplir con requisitos del convenio ANUIES.</Requisito>
+          <Nota>La postulación puede incluir hasta tres universidades nacionales.</Nota>
+        </RequisitosEspecificos>
       </Universidad>
 
       <Universidad tipo="Nacional">
         <Nombre>Universidad Autónoma de Tlaxcala</Nombre>
         <Ubicacion>Tlaxcala, México</Ubicacion>
+        <Pagina>https://uatx.mx/</Pagina>
         <EnfoqueCarrera>Administración, Ingeniería y Tecnología</EnfoqueCarrera>
+        <RequisitosEspecificos>
+          <Requisito id="N2E01">Promedio mínimo de 85.</Requisito>
+          <Requisito id="N2E02">Haber completado al menos el 50% de créditos del plan de estudios.</Requisito>
+          <Requisito id="N2E03">Cumplir con la documentación nacional requerida por UANL.</Requisito>
+          <Nota>Debe entregar documentación separada para cada universidad postulada.</Nota>
+        </RequisitosEspecificos>
       </Universidad>
 
       <Universidad tipo="Internacional">
         <Nombre>Universidad de Kannur</Nombre>
         <Ubicacion>Kannur, India</Ubicacion>
+        <Pagina>https://www.kannuruniversity.ac.in/en/</Pagina>
         <EnfoqueCarrera>Colaboración Académica, Científica y Cultural</EnfoqueCarrera>
+        <RequisitosEspecificos>
+          <Requisito id="I1E01">Promedio mínimo de 85.</Requisito>
+          <Requisito id="I1E02">50% de créditos cursados y aprobados.</Requisito>
+          <Requisito id="I1E03">Dominio comprobable del idioma inglés (TOEFL iBT ≥ 80) o equivalente.</Requisito>
+          <Requisito id="I1E04">Pasaporte vigente con mínimo 6 meses posteriores a la fecha de regreso.</Requisito>
+          <Requisito id="I1E05">Seguro médico internacional con cobertura de repatriación y atención psicológica.</Requisito>
+          <Requisito id="I1E06">Carta de aceptación y calendario de actividades firmado por asesor y director de tesis.</Requisito>
+        </RequisitosEspecificos>
       </Universidad>
     </UniversidadesDestino>
-  </ProgramaMovilidad>
+  </TharekAlexisGarciaA>
 
+  <JesusAngelBrionesAlfaro>
+      <FacultadOrigen>Facultad de Ingeniería Mecánica y Eléctrica (FIME)</FacultadOrigen>
+      <Carrera>Ingeniero Administrador de Sistemas (IAS)</Carrera>
+      <RequisitosGeneralesUANL>
+          <Requisito id="RG01">Ser estudiante regular (sin adeudo de materias).</Requisito>
+          <Requisito id="RG02">Haber cursado y aprobado un mínimo del 50% de los créditos de la carrera.</Requisito>
+          <Requisito id="RG03">Contar con un promedio general mínimo de 85/100 (puede variar ligeramente según la convocatoria).</Requisito>
+          <Requisito id="RG04">Aprobar los estudios médicos y psicológicos solicitados.</Requisito>
+          <Requisito id="RG05">Entregar documentación completa en tiempo y forma (Kardex oficial, Carta de postulación de FIME, Carta de motivos, Formato de autorización de materias a cursar, CV, etc.).</Requisito>
+          <Requisito id="RG06">Cubrir el seguro de gastos médicos (nacional o internacional, según destino).</Requisito>
+      </RequisitosGeneralesUANL>
+
+      <UniversidadesDestino>
+          <Universidad tipo="Nacional">
+              <Nombre>Universidad Autónoma de Baja California(UABC)</Nombre>
+              <Ubicacion>Mexicali, Baja California, México</Ubicacion>
+              <Pagina>https://www.uabc.mx/</Pagina>
+              <EnfoqueCarrera>Ingeniería en Computación</EnfoqueCarrera>
+              <RequisitosEspecificos>
+                  <Requisito id="N1E01">Estar inscrito como alumno regular en la UANL, en la facultad correspondiente</Requisito>
+                  <Requisito id="N1E02"> Tener promedio mínimo general de 85 (o su equivalente) para licenciatura.</Requisito>
+                  <Requisito id="N1E03">Haber cursado y aprobado al menos el 50 % de los créditos del plan de estudios al momento de aplicar.</Requisito>
+                  <Requisito id="N1E04">Contar con carta de motivos, currículum vitae, certificado oficial de calificaciones (kárdex) al momento de presentar la solicitud.</Requisito>
+                  <Requisito id="N1E05">Presentar la solicitud oficial, incluidas unidades de aprendizaje que se planean cursar en la universidad destino (formato de revalidación) y cumplir con carga horaria mínima establecida</Requisito>
+                  <Requisito id="N1E06">Documentación general: copia de identificación oficial, CURP, etc.</Requisito>
+              </RequisitosEspecificos>
+          </Universidad>
+
+          <Universidad tipo="Nacional">
+              <Nombre> Instituto Tecnologíco de Matamoros(ITM)</Nombre>
+              <Ubicacion>Matamoros, Tamaulipas, México</Ubicacion>
+              <Pagina>https://www.matamoros.tecnm.mx/</Pagina>
+              <EnfoqueCarrera>Ingeniería en Sistemas Computacionales.</EnfoqueCarrera>
+              <RequisitosEspecificos>
+                  <Requisito id="N2E01">Cumplir con los requisitos generales de la UANL.</Requisito>
+                  <Requisito id="N2E02">Presentar el formato de solicitud oficial UANL.</Requisito>
+                  <Requisito id="N2E03">Realizar el trámite de revalidación de unidades de aprendizaje (materias) con anticipación.</Requisito>
+                  <Nota>Las convocatorias de la UdG suelen tener fechas específicas que deben coordinarse con la Dirección de Intercambio Académico de FIME.</Nota>
+              </RequisitosEspecificos>
+          </Universidad>
+
+          <Universidad tipo="Internacional">
+              <Nombre>Carnegie Mellon University (CMU)</Nombre>
+              <Ubicacion>Pensilvania, Estados Unidos</Ubicacion>
+              <Pagina>https://www.cmu.edu/</Pagina>
+              <EnfoqueCarrera>Bachelor of Science in Information Systems (IS)</EnfoqueCarrera>
+              <RequisitosEspecificos>
+                  <Requisito id="I1E01">El programa es recíproco: CMU acepta estudiantes de las instituciones socias, y los estudiantes de CMU participan en esas instituciones.</Requisito>
+                  <Requisito id="I1E02">Los estudiantes que desean aplicar al “University-Wide Exchange” deben completar:
+                  La aplicación de intercambio de CMU (“Exchange Application”) a través del portal de Estudios en el Extranjero de CMU. 
+                  También la aplicación específica del programa de intercambio de la universidad destino (aunque en este caso tú serías estudiante de tu universidad origen, la UANL, y destino CMU, el convenio debe preverlo). </Requisito>
+                  <Requisito id="I1E03">Ensayo (“required essay”) de aproximadamente 1 000 palabras describiendo tu formación, objetivos académicos y profesionales, y cómo el intercambio te ayudará</Requisito>
+                  <Requisito id="I1E04">Currículum vitae (résumé).</Requisito>
+                  <Requisito id="I1E05">Dos cartas de recomendación.</Requisito>
+                  <Requisito id="I1E06">Lista de los cursos de CMU que deseas cursar (Courses of Interest form) para planificar con el departamento anfitrión.</Requisito>
+                  <Requisito id="I1E07">Para estudiantes entrantes que requieran visa F-1 o documentos DS-2019/I-20, es obligatorio asistir a la orientación de estudiantes internacionales al llegar.</Requisito>
+                  <Requisito id="I1E08">Prueba del dominio del inglés (si el solicitante no es hablante nativo de inglés)</Requisito>
+                  <Requisito id="I1E09">Prueba del dominio del inglés (si el solicitante no es hablante nativo de inglés)</Requisito>
+              </RequisitosEspecificos>
+          </Universidad>
+      </UniversidadesDestino>
+  </JesusAngelBrionesAlfaro>
+
+  <IngridNataliaRangelMoreno>
+      <FacultadOrigen>Facultad de Ingeniería Mecánica y Eléctrica (FIME)</FacultadOrigen>
+      <RequisitosGeneralesUANL>
+          <RequisitoGeneral id="RGU01">Haber cursado y aprobado un mínimo del 50% de los créditos de la carrera.</RequisitoGeneral>
+          <RequisitoGeneral id="RGU02">Contar con un promedio general mínimo de 85/100.</RequisitoGeneral>
+          <RequisitoGeneral id="RGU03">Ser estudiante regular (sin adeudo de materias).</RequisitoGeneral>
+      </RequisitosGeneralesUANL>
+
+      <UniversidadesDestino>
+          <Universidad id="U001" tipo="Internacional">
+              <Nombre>Kumamoto University</Nombre>
+              <Pais>Japón</Pais>
+              <Pagina>https://ewww.kumamoto-u.ac.jp/en/</Pagina>
+              <Enfoque>Ingeniería y Tecnología Avanzada</Enfoque>
+              <RequisitosEspecificos>
+                  <Requisito id="E01">Cumplir con los Requisitos Generales UANL.</Requisito>
+                  <Requisito id="E02">Certificado de inglés (TOEFL iBT 79 o ITP 550) o certificado de japonés (según el programa).</Requisito>
+                  <Requisito id="E03">Pasaporte vigente.</Requisito>
+                  <Requisito id="E04">Tramitar visa de estudiante.</Requisito>
+                  <Requisito id="E05">Plan de estudios autorizado por FIME.</Requisito>
+              </RequisitosEspecificos>
+          </Universidad>
+
+          <Universidad id="U002" tipo="Nacional">
+              <Nombre>Universidad de Guadalajara (UdG)</Nombre>
+              <Pais>México</Pais>
+              <Ubicacion>Guadalajara, Jalisco</Ubicacion>
+              <Pagina>https://www.udg.mx/</Pagina>
+              <Enfoque>Centro Universitario de Ciencias Exactas e Ingenierías (CUCEI) o CUCEA para Sistemas</Enfoque>
+              <RequisitosEspecificos>
+                  <Requisito id="E01">Cumplir con los Requisitos Generales UANL.</Requisito>
+                  <Requisito id="E02">Solicitud de movilidad nacional UANL/ANUIES/ECOES.</Requisito>
+                  <Requisito id="E03">Carta de motivos dirigida a la UdG.</Requisito>
+                  <Requisito id="E04">Kardex oficial (historial académico).</Requisito>
+                  <Requisito id="E05">Formato de revalidación de unidades de aprendizaje (materias) aprobado por la FIME.</Requisito>
+                  <Requisito id="E06">Comprobante de seguro de gastos médicos mayores con cobertura nacional.</Requisito>
+              </RequisitosEspecificos>
+          </Universidad>
+          
+          <Universidad id="U003" tipo="Nacional">
+              <Nombre>Instituto Politécnico Nacional (IPN)</Nombre>
+              <Pais>México</Pais>
+              <Pagina>https://www.ipn.mx/</Pagina>
+              <Enfoque>Ingeniería en Sistemas Computacionales o afín</Enfoque>
+              <RequisitosEspecificos>
+                  <Requisito id="E01">Cumplir con los Requisitos Generales UANL.</Requisito>
+                  <Requisito id="E02">Solicitud de movilidad nacional UANL/ANUIES.</Requisito>
+                  <Requisito id="E03">Póliza de seguro de gastos médicos mayores con cobertura nacional.</Requisito>
+                  <Requisito id="E04">Formato de revalidación de unidades de aprendizaje (materias) aprobado por la FIME.</Requisito>
+              </RequisitosEspecificos>
+          </Universidad>
+      </UniversidadesDestino>
+  </IngridNataliaRangelMoreno>
+
+  <PedroBautistaMiranda>
+    <FacultadOrigen>Facultad de Ingeniería Mecánica y Eléctrica (FIME)</FacultadOrigen>
+    <Carrera>Ingeniero Administrador de Sistemas (IAS)</Carrera>
+
+    <RequisitosGeneralesUANL>
+      <Requisito id="RG01">Estar inscrito en el Departamento Escolar y de Archivo de la UANL y en la escuela o facultad correspondiente, en el periodo escolar en el que se realice.</Requisito>
+      <Requisito id="RG02">Ser alumno regular y contar con promedio mínimo de 85.</Requisito>
+      <Requisito id="RG03">Contar con el documento de postulación de su escuela o facultad.</Requisito>
+      <Requisito id="RG04">Registrar la carga horaria en la escuela o facultad durante el periodo escolar en el que se realice la movilidad académica.</Requisito>
+      <Requisito id="RG05">Haber cursado y aprobado un mínimo de 50% de los créditos académicos del plan de estudios.</Requisito>
+      <Requisito id="RG06">Cursar unidades de aprendizaje equivalentes al plan de estudios.</Requisito>
+      <Requisito id="RG07">Cursar al menos la carga horaria mínima del plan de estudios correspondiente.</Requisito>
+      <Requisito id="RG08">Comprobar el dominio del idioma establecido en el convenio o por la institución receptora.</Requisito>
+      <Requisito id="RG09">No haber participado anteriormente en un programa de movilidad con reconocimiento de créditos.</Requisito>
+      <Requisito id="RG10">Entregar solicitud y realizar los trámites que establezca el Área de Movilidad Académica.</Requisito>
+      <Requisito id="RG11">Cubrir los pagos correspondientes.</Requisito>
+      <Requisito id="RG12">Aprobar estudios médicos y psicológicos requeridos.</Requisito>
+      <Requisito id="RG13">Cumplir los demás puntos establecidos por la convocatoria.</Requisito>
+    </RequisitosGeneralesUANL>
+
+    <UniversidadesDestino>
+      <Universidad tipo="Nacional">
+        <Nombre>Universidad Autónoma de Nuevo León (UANL)</Nombre>
+        <Ubicacion>San Nicolás de los Garza, Nuevo León, México</Ubicacion>
+        <EnfoqueCarrera>Ingeniero Administrador de Sistemas</EnfoqueCarrera>
+        <Pagina>https://www.uanl.mx/oferta/ingeniero-administrador-de-sistemas/</Pagina>
+        <RequisitosEspecificos>
+          <Requisito id="N1E01">Haber concluido el bachillerato en el área físico-matemática o equivalente.</Requisito>
+          <Requisito id="N1E02">Presentar y aprobar el Examen de Admisión de la UANL.</Requisito>
+          <Requisito id="N1E03">Participar en el curso propedéutico establecido por la facultad.</Requisito>
+          <Requisito id="N1E04">Entregar documentación oficial (acta de nacimiento, CURP, certificado de estudios).</Requisito>
+        </RequisitosEspecificos>
+      </Universidad>
+
+      <Universidad tipo="Nacional">
+        <Nombre>Universidad Metropolitana de Monterrey (UMM)</Nombre>
+        <Ubicacion>Monterrey, Nuevo León, México</Ubicacion>
+        <EnfoqueCarrera>Ingeniero Administrador de Sistemas</EnfoqueCarrera>
+        <Pagina>https://www.umm.edu.mx/profesional/ingeniero-administrador-de-sistemas</Pagina>
+        <RequisitosEspecificos>
+          <Requisito id="N2E01">Acta de nacimiento actualizada.</Requisito>
+          <Requisito id="N2E02">Certificado de bachillerato legalizado o constancia de estudios concluidos.</Requisito>
+          <Requisito id="N2E03">Entrevista de admisión con el área académica.</Requisito>
+          <Requisito id="N2E04">Pago de inscripción y entrega de documentos originales.</Requisito>
+        </RequisitosEspecificos>
+      </Universidad>
+
+      <Universidad tipo="Internacional">
+        <Nombre>University of Texas at Austin</Nombre>
+        <Ubicacion>Austin, Texas, Estados Unidos</Ubicacion>
+        <EnfoqueCarrera>Bachelor of Science in Information Systems and Computer Science</EnfoqueCarrera>
+        <Pagina>https://admissions.utexas.edu/info-for/international-students/</Pagina>
+        <RequisitosEspecificos>
+          <Requisito id="I1E01">Enviar solicitud completa mediante Common App o ApplyTexas.</Requisito>
+          <Requisito id="I1E02">Historial académico traducido al inglés y certificado.</Requisito>
+          <Requisito id="I1E03">Demostrar dominio del inglés (TOEFL iBT ≥ 79 o IELTS ≥ 6.5).</Requisito>
+          <Requisito id="I1E04">Ensayo personal y posibles cartas de recomendación académica.</Requisito>
+        </RequisitosEspecificos>
+      </Universidad>
+    </UniversidadesDestino>
+  </PedroBautistaMiranda>
+
+  <XimenaRamosRivera>
+      <FacultadOrigen>Facultad de Ingeniería Mecánica y Eléctrica (FIME)</FacultadOrigen>
+      <Carrera>Ingeniero Administrador de Sistemas (IAS)</Carrera>
+      <RequisitosGeneralesUANL>
+          <Requisito id="RG01">Ser estudiante regular (sin adeudo de materias).</Requisito>
+          <Requisito id="RG02">Haber cursado y aprobado un mínimo del 50% de los créditos de la carrera.</Requisito>
+          <Requisito id="RG03">Contar con un promedio general mínimo de 85/100 (puede variar ligeramente según la convocatoria).</Requisito>
+          <Requisito id="RG04">Aprobar los estudios médicos y psicológicos solicitados.</Requisito>
+          <Requisito id="RG05">Entregar documentación completa en tiempo y forma (Kardex oficial, Carta de postulación de FIME, Carta de motivos, Formato de autorización de materias a cursar, CV, etc.).</Requisito>
+          <Requisito id="RG06">Cubrir el seguro de gastos médicos (nacional o internacional, según destino).</Requisito>
+      </RequisitosGeneralesUANL>
+
+      <UniversidadesDestino>
+          <Universidad tipo="Nacional">
+              <Nombre>Instituto Politécnico Nacional (IPN)</Nombre>
+              <Ubicacion>Ciudad de México, México</Ubicacion>
+              <Pagina>https://www.ipn.mx/</Pagina>
+              <EnfoqueCarrera>Ingeniería en Sistemas Computacionales o Informática Administrativa</EnfoqueCarrera>
+              <RequisitosEspecificos>
+                  <Requisito id="N1E01">Cumplir con los requisitos generales de la UANL (50% de créditos y promedio de 85).</Requisito>
+                  <Requisito id="N1E02">Aceptar el formato de solicitud de la UANL y los trámites de registro interno del IPN.</Requisito>
+                  <Requisito id="N1E03">Contar con Carta Compromiso y de Apoyo de la Dirección de FIME.</Requisito>
+                  <Nota>La movilidad nacional se rige principalmente por el convenio ANUIES o el acuerdo bilateral UANL-IPN. Requisitos adicionales son mínimos fuera de los generales UANL.</Nota>
+              </RequisitosEspecificos>
+          </Universidad>
+
+          <Universidad tipo="Nacional">
+              <Nombre>Universidad de Guadalajara (UdG)</Nombre>
+              <Ubicacion>Guadalajara, Jalisco, México</Ubicacion>
+              <Pagina>https://www.udg.mx/</Pagina>
+              <EnfoqueCarrera>Ingeniería en Sistemas o Ingeniería Industrial y de Sistemas</EnfoqueCarrera>
+              <RequisitosEspecificos>
+                  <Requisito id="N2E01">Cumplir con los requisitos generales de la UANL.</Requisito>
+                  <Requisito id="N2E02">Presentar el formato de solicitud oficial UANL.</Requisito>
+                  <Requisito id="N2E03">Realizar el trámite de revalidación de unidades de aprendizaje (materias) con anticipación.</Requisito>
+                  <Nota>Las convocatorias de la UdG suelen tener fechas específicas que deben coordinarse con la Dirección de Intercambio Académico de FIME.</Nota>
+              </RequisitosEspecificos>
+          </Universidad>
+
+          <Universidad tipo="Internacional">
+              <Nombre>Universidad Técnica de Múnich (TUM) - Alemania</Nombre>
+              <Ubicacion>Múnich, Alemania</Ubicacion>
+              <Pagina>https://www.tum.de/en/</Pagina>
+              <EnfoqueCarrera>Sistemas de Información, Ingeniería y Gestión</EnfoqueCarrera>
+              <RequisitosEspecificos>
+                  <Requisito id="I1E01">Cumplir con los requisitos generales UANL (50% de créditos y promedio mínimo de 85).</Requisito>
+                  <Requisito id="I1E02">Contar con un nivel de idioma Inglés TOEFL iBT mínimo 80 puntos O Alemán Nivel B2 (Dependiendo del programa de beca o convenio específico, por ejemplo, DAAD).</Requisito>
+                  <Requisito id="I1E03">Pasaporte vigente.</Requisito>
+                  <Requisito id="I1E04">Tramitar visa o permiso migratorio correspondiente.</Requisito>
+                  <Requisito id="I1E05">Contratar un seguro de gastos médicos con cobertura internacional y repatriación.</Requisito>
+                  <Requisito id="I1E06">Entregar una Carta emitida por la facultad corroborando que se encuentra en el 15% de los mejores alumnos (específico para algunas becas).</Requisito>
+              </RequisitosEspecificos>
+          </Universidad>
+      </UniversidadesDestino>
+  </XimenaRamosRivera>
+
+  <SebastianFigueroaMolina>
+      <FacultadOrigen>Facultad de Ingeniería Mecánica y Eléctrica (FIME)</FacultadOrigen>
+      <Carrera>Ingeniero Administrador de Sistemas (IAS)</Carrera>
+
+      <RequisitosGeneralesUANL>
+          <Requisito id="RG01">Ser estudiante regular (sin adeudo de materias).</Requisito>
+          <Requisito id="RG02">Haber cursado y aprobado un mínimo del 50% de los créditos de la carrera.</Requisito>
+          <Requisito id="RG03">Contar con un promedio general mínimo de 85/100 (puede variar ligeramente según la convocatoria).</Requisito>
+          <Requisito id="RG04">Aprobar los estudios médicos y psicológicos solicitados.</Requisito>
+          <Requisito id="RG05">Entregar documentación completa en tiempo y forma (Kardex oficial, Carta de postulación de FIME, Carta de motivos, Formato de autorización de materias a cursar, CV, etc.).</Requisito>
+          <Requisito id="RG06">Cubrir el seguro de gastos médicos (nacional o internacional, según destino).</Requisito>
+      </RequisitosGeneralesUANL>
+
+      <UniversidadesDestino>
+          <Universidad tipo="Nacional">
+              <Nombre>Instituto Politécnico Nacional (IPN)</Nombre>
+              <Ubicacion>Ciudad de México, México</Ubicacion>
+              <Pagina>https://www.ipn.mx/</Pagina>
+              <EnfoqueCarrera>Ingeniería en Sistemas Computacionales o Informática Administrativa</EnfoqueCarrera>
+              <RequisitosEspecificos>
+                  <Requisito id="N1E01">Cumplir con los requisitos generales de la UANL (50% de créditos y promedio de 85).</Requisito>
+                  <Requisito id="N1E02">Aceptar el formato de solicitud de la UANL y los trámites de registro interno del IPN.</Requisito>
+                  <Requisito id="N1E03">Contar con Carta Compromiso y de Apoyo de la Dirección de FIME.</Requisito>
+                  <Nota>La movilidad nacional se rige principalmente por el convenio ANUIES o el acuerdo bilateral UANL-IPN. Requisitos adicionales son mínimos fuera de los generales UANL.</Nota>
+              </RequisitosEspecificos>
+          </Universidad>
+
+          <Universidad tipo="Nacional">
+              <Nombre>Universidad de Guadalajara (UdG)</Nombre>
+              <Ubicacion>Guadalajara, Jalisco, México</Ubicacion>
+              <Pagina>https://www.udg.mx/</Pagina>
+              <EnfoqueCarrera>Ingeniería en Sistemas o Ingeniería Industrial y de Sistemas</EnfoqueCarrera>
+              <RequisitosEspecificos>
+                  <Requisito id="N2E01">Cumplir con los requisitos generales de la UANL.</Requisito>
+                  <Requisito id="N2E02">Presentar el formato de solicitud oficial UANL.</Requisito>
+                  <Requisito id="N2E03">Realizar el trámite de revalidación de unidades de aprendizaje (materias) con anticipación.</Requisito>
+                  <Nota>Las convocatorias de la UdG suelen tener fechas específicas que deben coordinarse con la Dirección de Intercambio Académico de FIME.</Nota>
+              </RequisitosEspecificos>
+          </Universidad>
+
+          <Universidad tipo="Internacional">
+              <Nombre>Universidad de Nagoya (Nagoya University) - Japón</Nombre>
+              <Ubicacion>Nagoya, Prefectura de Aichi, Japón</Ubicacion>
+              <Pagina>https://en.nagoya-u.ac.jp/</Pagina>
+              <EnfoqueCarrera>Ingeniería de Sistemas, Computación y Tecnología</EnfoqueCarrera>
+              <RequisitosEspecificos>
+                  <Requisito id="I1E01">Cumplir con los requisitos generales de la UANL (50% de créditos y promedio mínimo de 85).</Requisito>
+                  <Requisito id="I1E02">Acreditar nivel de idioma inglés (TOEFL iBT mínimo 80) o japonés (Nivel JLPT N3 o superior).</Requisito>
+                  <Requisito id="I1E03">Contar con pasaporte vigente y visa de estudiante.</Requisito>
+                  <Requisito id="I1E04">Presentar carta de motivos en inglés dirigida a la Universidad de Nagoya.</Requisito>
+                  <Requisito id="I1E05">Contratar seguro de gastos médicos con cobertura internacional y repatriación.</Requisito>
+                  <Nota>La FIME-UANL mantiene convenios de cooperación con universidades japonesas, incluyendo la Universidad de Nagoya, facilitando movilidad de estudiantes de ingeniería.</Nota>
+              </RequisitosEspecificos>
+          </Universidad>
+      </UniversidadesDestino>
+  </SebastianFigueroaMolina>
+
+  <DavidJulianMirandaVelazquez>
+      <FacultadOrigen>Facultad de Ingeniería Mecánica y Eléctrica (FIME)</FacultadOrigen>
+      <Carrera>Ingeniero Administrador de Sistemas (IAS)</Carrera>
+      <RequisitosGeneralesUANL>
+          <Requisito id="RG01">Ser estudiante regular (sin adeudo de materias).</Requisito>
+          <Requisito id="RG02">Haber cursado y aprobado un mínimo del 50% de los créditos de la carrera.</Requisito>
+          <Requisito id="RG03">Contar con un promedio general mínimo de 85/100 (puede variar ligeramente según la convocatoria).</Requisito>
+          <Requisito id="RG04">Aprobar los estudios médicos y psicológicos solicitados.</Requisito>
+          <Requisito id="RG05">Entregar documentación completa en tiempo y forma (Kardex oficial, Carta de postulación de FIME, Carta de motivos, Formato de autorización de materias a cursar, CV, etc.).</Requisito>
+          <Requisito id="RG06">Cubrir el seguro de gastos médicos (nacional o internacional, según destino).</Requisito>
+      </RequisitosGeneralesUANL>
+
+      <UniversidadesDestino>
+          <Universidad tipo="Nacional">
+              <Nombre>Universidad Autónoma de San Luis Potosí (UASLP)</Nombre>
+              <Ubicacion>San Luis Potosí, México</Ubicacion>
+              <Pagina>https://www.uaslp.mx/#gsc.tab=0</Pagina>
+              <EnfoqueCarrera>Ingeniería en Sistemas Computacionales o Ingeniería Administrativa</EnfoqueCarrera>
+              <RequisitosEspecificos>
+                  <Requisito id="N1E01">Cumplir con los requisitos generales de la UANL (50% de créditos y promedio de 85).</Requisito>
+                  <Requisito id="N1E02">Presentar carta de motivos dirigida a la UASLP y carta compromiso.</Requisito>
+                  <Requisito id="N1E03">Contar con carta de recomendación del director(a) de FIME y currículum vitae.</Requisito>
+                  <Nota>La movilidad nacional se realiza bajo el convenio ANUIES o acuerdos bilaterales UANL-UASLP.</Nota>
+              </RequisitosEspecificos>
+          </Universidad>
+
+          <Universidad tipo="Nacional">
+              <Nombre>Universidad Autónoma de Guerrero (UAG)</Nombre>
+              <Ubicacion>Chilpancingo, Guerrero, México</Ubicacion>
+              <Pagina>https://www.uagro.mx/</Pagina>
+              <EnfoqueCarrera>Ingeniería en Sistemas o Ingeniería Administrativa</EnfoqueCarrera>
+              <RequisitosEspecificos>
+                  <Requisito id="N2E01">Cumplir con los requisitos generales de la UANL.</Requisito>
+                  <Requisito id="N2E02">Presentar carta de motivos, carta compromiso y solicitud oficial UANL.</Requisito>
+                  <Requisito id="N2E03">Contar con carta de recomendación del director(a) y currículum vitae.</Requisito>
+                  <Nota>La UAG participa en convocatorias nacionales coordinadas por FIME y UANL.</Nota>
+              </RequisitosEspecificos>
+          </Universidad>
+
+          <Universidad tipo="Internacional">
+              <Nombre>Université Laval</Nombre>
+              <Ubicacion>Quebec, Canadá</Ubicacion>
+              <Pagina>https://www.ulaval.ca/</Pagina>
+              <EnfoqueCarrera>Administración de Sistemas, Ingeniería de Software, Gestión Informática</EnfoqueCarrera>
+              <RequisitosEspecificos>
+                  <Requisito id="I1E01">Cumplir con los requisitos generales UANL (50% de créditos y promedio mínimo de 85).</Requisito>
+                  <Requisito id="I1E02">Contar con dominio del idioma francés o inglés (TOEFL iBT mínimo 80 o equivalente).</Requisito>
+                  <Requisito id="I1E03">Pasaporte vigente y visa canadiense de estudiante.</Requisito>
+                  <Requisito id="I1E04">Contratar seguro de gastos médicos internacional con cobertura en Canadá.</Requisito>
+                  <Requisito id="I1E05">Presentar carta de motivos y carta de apoyo del director(a) de FIME.</Requisito>
+                  <Requisito id="I1E06">Cumplir con requisitos académicos específicos de Laval (diploma preuniversitario + 1 año de estudios universitarios).</Requisito>
+              </RequisitosEspecificos>
+          </Universidad>
+      </UniversidadesDestino>
+  </DavidJulianMirandaVelazquez>
+  
 </ProgramasMovilidad>
+
 
