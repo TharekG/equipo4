@@ -8,6 +8,9 @@
 </head>
 <body>
   <header class="site-header">
+    <div class="volver-menu">
+      <a href="../../index.html" onclick="cerrarPagina(event)"> Regresar al menú</a>
+    </div>
     <div class="container header-inner">
       <div class="logo">
         <div class="logo-mark">FIME</div>
@@ -178,7 +181,27 @@
         </article>
       </div>
     </section>
-
+  <div class="volver-menu">
+    <a href="../../index.html" onclick="cerrarPagina()"> Regresar al menú</a>
+  </div>
+  <script>
+    function cerrarPagina(event) {
+      if (confirm('¿Deseas salir de la página?')) { window.close(); }
+    }
+  </script>
+  <script>
+    function cerrarPagina(event) {
+      event.preventDefault(); 
+      const ok = confirm('¿Deseas regresar al menú?');
+      if (!ok) return;
+      window.location.href = "../../index.html"; 
+    }
+  </script>
+  <script>
+    window.onload = function() {
+      alert("Bienvenido(a), Esta es la Actividad #2 de Sebastian Figueroa Molina");
+    };
+  </script>
     <footer class="site-footer">
       <div class="container footer-inner">
         <small>FIME · UANL — Página generada</small>
@@ -187,3 +210,4 @@
   </main>
 </body>
 </html>
+
