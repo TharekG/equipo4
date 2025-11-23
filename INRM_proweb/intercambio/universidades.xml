@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ProgramaMovilidadFIME>
+<ProgramaMovilidad>
     <FacultadOrigen>Facultad de Ingeniería Mecánica y Eléctrica (FIME)</FacultadOrigen>
     <RequisitosGeneralesUANL>
         <RequisitoGeneral id="RGU01">Haber cursado y aprobado un mínimo del 50% de los créditos de la carrera.</RequisitoGeneral>
@@ -11,6 +11,7 @@
         <Universidad id="U001" tipo="Internacional">
             <Nombre>Kumamoto University</Nombre>
             <Pais>Japón</Pais>
+            <Pagina>https://ewww.kumamoto-u.ac.jp/en/</Pagina>
             <Enfoque>Ingeniería y Tecnología Avanzada</Enfoque>
             <RequisitosEspecificos>
                 <Requisito id="E01">Cumplir con los Requisitos Generales UANL.</Requisito>
@@ -21,11 +22,11 @@
             </RequisitosEspecificos>
         </Universidad>
 
-<UniversidadesDestino>
         <Universidad id="U002" tipo="Nacional">
             <Nombre>Universidad de Guadalajara (UdG)</Nombre>
             <Pais>México</Pais>
             <Ubicacion>Guadalajara, Jalisco</Ubicacion>
+            <Pagina>https://www.udg.mx/</Pagina>
             <Enfoque>Centro Universitario de Ciencias Exactas e Ingenierías (CUCEI) o CUCEA para Sistemas</Enfoque>
             <RequisitosEspecificos>
                 <Requisito id="E01">Cumplir con los Requisitos Generales UANL.</Requisito>
@@ -36,11 +37,11 @@
                 <Requisito id="E06">Comprobante de seguro de gastos médicos mayores con cobertura nacional.</Requisito>
             </RequisitosEspecificos>
         </Universidad>
-    </UniversidadesDestino>
 
         <Universidad id="U003" tipo="Nacional">
             <Nombre>Instituto Politécnico Nacional (IPN)</Nombre>
             <Pais>México</Pais>
+            <Pagina>https://www.ipn.mx/</Pagina>
             <Enfoque>Ingeniería en Sistemas Computacionales o afín</Enfoque>
             <RequisitosEspecificos>
                 <Requisito id="E01">Cumplir con los Requisitos Generales UANL.</Requisito>
@@ -50,4 +51,4 @@
             </RequisitosEspecificos>
         </Universidad>
     </UniversidadesDestino>
-</ProgramaMovilidadFIME>
+</ProgramaMovilidad>
