@@ -16,6 +16,7 @@
         <Universidad tipo="Nacional">
             <Nombre>Instituto Politécnico Nacional (IPN)</Nombre>
             <Ubicacion>Ciudad de México, México</Ubicacion>
+            <Pagina>https://www.ipn.mx/</Pagina>
             <EnfoqueCarrera>Ingeniería en Sistemas Computacionales o Informática Administrativa</EnfoqueCarrera>
             <RequisitosEspecificos>
                 <Requisito id="N1E01">Cumplir con los requisitos generales de la UANL (50% de créditos y promedio de 85).</Requisito>
@@ -28,6 +29,7 @@
         <Universidad tipo="Nacional">
             <Nombre>Universidad de Guadalajara (UdG)</Nombre>
             <Ubicacion>Guadalajara, Jalisco, México</Ubicacion>
+            <Pagina>https://www.udg.mx/</Pagina>
             <EnfoqueCarrera>Ingeniería en Sistemas o Ingeniería Industrial y de Sistemas</EnfoqueCarrera>
             <RequisitosEspecificos>
                 <Requisito id="N2E01">Cumplir con los requisitos generales de la UANL.</Requisito>
@@ -40,6 +42,7 @@
         <Universidad tipo="Internacional">
             <Nombre>Universidad de Nagoya (Nagoya University) - Japón</Nombre>
             <Ubicacion>Nagoya, Prefectura de Aichi, Japón</Ubicacion>
+            <Pagina>https://en.nagoya-u.ac.jp/</Pagina>
             <EnfoqueCarrera>Ingeniería de Sistemas, Computación y Tecnología</EnfoqueCarrera>
             <RequisitosEspecificos>
                 <Requisito id="I1E01">Cumplir con los requisitos generales de la UANL (50% de créditos y promedio mínimo de 85).</Requisito>
