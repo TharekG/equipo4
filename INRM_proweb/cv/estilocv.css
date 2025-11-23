@@ -1,42 +1,36 @@
-/* estilocv.css - Diseño Elegante en Tonos Crema y Marrón */
-
-/* Color principal (Marrón Chocolate Oscuro) */
 :root {
     --color-principal: #4e342e;
-    --color-acento-claro: #8d6e63; /* Marrón más claro para acentos */
-    --color-fondo-suave: #fcf8f3; /* Crema/Beige suave para fondo */
+    --color-acento-claro: #8d6e63; 
+    --color-fondo-suave: #fcf8f3; 
 }
 
-/* Estilos Generales del Documento */
 body {
     font-family: 'Arial', sans-serif; 
-    margin: 0; /* Quitar margen del body para centrar mejor */
+    margin: 0; 
     padding: 40px; 
-    background-color: var(--color-fondo-suave); /* Fondo crema/beige */
+    background-color: var(--color-fondo-suave); 
     color: #333; 
     line-height: 1.6; 
 }
 
-/* Contenedor Principal del CV */
 .cv-container {
     max-width: 900px;
-    margin: 0 auto; /* Centra el contenedor */
+    margin: 0 auto;
     padding: 30px;
-    background-color: #fff; /* Fondo blanco puro para el contenido */
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1); /* Sombra suave y elegante */
+    background-color: #fff; 
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1); 
     border-radius: 10px;
 }
 
-/* Encabezado (Datos Personales) */
 header {
     text-align: center;
-    border-bottom: 3px solid var(--color-principal); /* Línea separadora marrón */
+    border-bottom: 3px solid var(--color-principal); 
     padding-bottom: 15px;
     margin-bottom: 25px;
 }
 
 header h1 {
-    color: var(--color-principal); /* Color principal para nombre */
+    color: var(--color-principal);
     margin: 0;
     font-size: 2.5em; 
     letter-spacing: 1px;
@@ -48,26 +42,24 @@ header p {
 }
 
 header p a {
-    color: var(--color-acento-claro); /* Enlaces en tono marrón claro */
+    color: var(--color-acento-claro); 
     text-decoration: none;
     font-weight: bold;
 }
 
-/* Estilos para la Imagen de Perfil */
 .profile-pic {
     width: 150px; 
     height: 150px; 
     border-radius: 50%; 
     object-fit: cover; 
-    border: 5px solid var(--color-acento-claro); /* Borde acentuado */
+    border: 5px solid var(--color-acento-claro); 
     margin: 10px auto 15px auto; 
     display: block; 
 }
 
-/* Títulos de Sección */
 h2 {
     color: var(--color-principal);
-    border-bottom: 2px solid var(--color-acento-claro); /* Línea de acento */
+    border-bottom: 2px solid var(--color-acento-claro); 
     padding-bottom: 5px;
     margin-top: 35px;
     font-size: 1.6em;
@@ -75,11 +67,10 @@ h2 {
     font-weight: 500;
 }
 
-/* Entradas de Experiencia y Educación */
 .job-entry, .education-entry {
     margin-bottom: 20px;
     padding-left: 15px;
-    border-left: 4px solid var(--color-acento-claro); /* Barra de acento lateral marrón */
+    border-left: 4px solid var(--color-acento-claro); 
 }
 
 .job-title, .degree-name {
@@ -95,20 +86,20 @@ h2 {
     margin-bottom: 5px;
 }
 
-/* Listas (Responsabilidades/Habilidades/Hobbies) */
+
 ul {
-    list-style: none; /* Quitamos el punto de lista por defecto */
+    list-style: none; 
     margin-left: 0;
     padding-left: 0;
 }
 
 ul li {
     margin-bottom: 8px;
-    padding-left: 1.2em; /* Espacio para un ícono simulado */
-    text-indent: -1.2em; /* Mueve el texto hacia la izquierda */
+    padding-left: 1.2em; 
+    text-indent: -1.2em; 
 }
 
-/* Simulamos un punto elegante con CSS para las listas */
+
 ul li::before {
     content: "•";
     color: var(--color-acento-claro);
@@ -116,4 +107,27 @@ ul li::before {
     display: inline-block;
     width: 1.2em;
     margin-left: -1.2em;
+}
+
+.volver-menu {
+  text-align: left;
+  margin: 25px 0;
+  }
+
+.volver-menu a {
+  display: inline-block;
+  padding: 12px 20px;
+  background: #d12828;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: background .25s, transform .2s;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  margin: 0 0 20px 25px;
+}
+
+.volver-menu a:hover {
+  background: #7e1d1d;
+  transform: translateY(-2px);
 }
