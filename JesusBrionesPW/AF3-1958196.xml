@@ -15,6 +15,7 @@
         <Universidad tipo="Nacional">
             <Nombre>Universidad Autónoma de Baja California(UABC)</Nombre>
             <Ubicacion>Mexicali, Baja California, México</Ubicacion>
+            <Pagina>https://www.uabc.mx/</Pagina>
             <EnfoqueCarrera>Ingeniería en Computación</EnfoqueCarrera>
             <RequisitosEspecificos>
                 <Requisito id="N1E01">Estar inscrito como alumno regular en la UANL, en la facultad correspondiente</Requisito>
@@ -27,8 +28,9 @@
         </Universidad>
 
         <Universidad tipo="Nacional">
-            <Nombre> instituto Tecnologíco de Matamoros(ITM)</Nombre>
+            <Nombre> Instituto Tecnologíco de Matamoros(ITM)</Nombre>
             <Ubicacion>Matamoros, Tamaulipas, México</Ubicacion>
+            <Pagina>https://www.matamoros.tecnm.mx/</Pagina>
             <EnfoqueCarrera>Ingeniería en Sistemas Computacionales.</EnfoqueCarrera>
             <RequisitosEspecificos>
                 <Requisito id="N2E01">Cumplir con los requisitos generales de la UANL.</Requisito>
@@ -41,6 +43,7 @@
         <Universidad tipo="Internacional">
             <Nombre>Carnegie Mellon University (CMU)</Nombre>
             <Ubicacion>Pensilvania, Estados Unidos</Ubicacion>
+            <Pagina>https://www.cmu.edu/</Pagina>
             <EnfoqueCarrera>Bachelor of Science in Information Systems (IS)</EnfoqueCarrera>
             <RequisitosEspecificos>
                 <Requisito id="I1E01">El programa es recíproco: CMU acepta estudiantes de las instituciones socias, y los estudiantes de CMU participan en esas instituciones.</Requisito>
