@@ -7,10 +7,8 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
   <div class="container" role="main" aria-label="Currículum de Sebastian Figueroa Molina">
 
-    <!-- Lateral -->
     <aside class="card" aria-label="Información personal">
       <div class="profile">
         <div class="avatar" aria-hidden="true">SF</div>
@@ -49,7 +47,6 @@
       </div>
     </aside>
 
-    <!-- Principal -->
     <main class="main" aria-label="Resumen profesional y educación">
       <div class="title">
         <div>
@@ -91,10 +88,26 @@
           <li>Manejo y administración básica de redes y servicios.</li>
         </ul>
       </section>
-
+  <div class="volver-menu">
+    <a href="../../index.html" onclick="cerrarPagina(event)"> Regresar al menú</a>
+  </div>
     </main>
 
   </div>
-
+  <script>
+    function cerrarPagina(event) {
+      event.preventDefault(); 
+      const ok = confirm('¿Deseas regresar al menú?');
+      if (!ok) return;
+      window.location.href = "../../index.html"; 
+    }
+  </script>
+  <script>
+    window.onload = function() {
+      alert("Bienvenido(a), Esta es la Actividad #1 de Sebastian Figueroa Molina");
+    };
+  </script>
 </body>
 </html>
+
+
