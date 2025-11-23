@@ -133,42 +133,35 @@
       margin: 0 0 0 18px
     }
 
-    .btn-exit {
-      position: fixed;
-      top: 14px;
-      right: 14px;
-      background: #ff4d4d;
-      border: none;
+    .volver-menu {
+    text-align: left;
+    margin: 25px 0;
+    }
+
+    .volver-menu a {
+      display: inline-block;
+      padding: 12px 20px;
+      background: #d12828;
       color: #fff;
-      padding: 10px 14px;
+      font-weight: 600;
       border-radius: 10px;
-      cursor: pointer;
-      box-shadow: 0 6px 16px rgba(0, 0, 0, .18);
-      font-weight: 600
+      text-decoration: none;
+      transition: background .25s, transform .2s;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      margin: 0 0 20px 25px;
     }
 
-    .btn-exit:hover {
-      background: #d93a3a
-    }
-
-    @media (max-width:880px) {
-      .cv {
-        grid-template-columns: 1fr
-      }
-
-      .left {
-        order: 2
-      }
-
-      .right {
-        order: 1
-      }
+    .volver-menu a:hover {
+      background: #7e1d1d;
+      transform: translateY(-2px);
     }
   </style>
 </head>
 
 <body>
-  <button class="btn-exit" onclick="cerrarPagina()" title="Salir">Salir ✕</button>
+  <div class="volver-menu">
+    <a href="../index.html" onclick="cerrarPagina(event)"> Regresar al menú</a>
+  </div>
 
   <div class="cv">
 
@@ -251,10 +244,21 @@
     </main>
   </div>
 
+  <div class="volver-menu">
+    <a href="../index.html" onclick="cerrarPagina(event)"> Regresar al menú</a>
+  </div>
   <script>
-    function cerrarPagina() {
-      if (confirm('¿Deseas salir de la página?')) { window.close(); }
+    function cerrarPagina(event) {
+      event.preventDefault(); 
+      const ok = confirm('¿Deseas regresar al menú?');
+      if (!ok) return;
+      window.location.href = "../../index.html"; 
     }
+  </script>
+  <script>
+    window.onload = function() {
+      alert("Bienvenido(a), Esta es la Actividad #1 de Pedro Bautista Miranda");
+    };
   </script>
 </body>
 
