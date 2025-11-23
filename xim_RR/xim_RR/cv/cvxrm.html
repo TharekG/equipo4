@@ -10,7 +10,9 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
-
+  <div class="volver-menu">
+    <a href="../../../index.html" onclick="cerrarPagina(event)"> Regresar al menú</a>
+  </div>
     <div class="cv-container">
         
         <header>
@@ -114,6 +116,21 @@
         </div>
 
     </div>
-
+  <div class="volver-menu">
+    <a href="../index.html" onclick="cerrarPagina(event)"> Regresar al menú</a>
+  </div>
+  <script>
+    function cerrarPagina(event) {
+      event.preventDefault(); 
+      const ok = confirm('¿Deseas regresar al menú?');
+      if (!ok) return;
+      window.location.href = "../../index.html"; 
+    }
+  </script>
+  <script>
+    window.onload = function() {
+      alert("Bienvenido(a), Esta es la Actividad #1 de Ximena Ramos Rivera");
+    };
+  </script>
 </body>
 </html>
