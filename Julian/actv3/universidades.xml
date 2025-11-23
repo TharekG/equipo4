@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProgramaMovilidad>
+    <FacultadOrigen>Facultad de Ingeniería Mecánica y Eléctrica (FIME)</FacultadOrigen>
+    <Carrera>Ingeniero Administrador de Sistemas (IAS)</Carrera>
+    <RequisitosGeneralesUANL>
+        <Requisito id="RG01">Ser estudiante regular (sin adeudo de materias).</Requisito>
+        <Requisito id="RG02">Haber cursado y aprobado un mínimo del 50% de los créditos de la carrera.</Requisito>
+        <Requisito id="RG03">Contar con un promedio general mínimo de 85/100 (puede variar ligeramente según la convocatoria).</Requisito>
+        <Requisito id="RG04">Aprobar los estudios médicos y psicológicos solicitados.</Requisito>
+        <Requisito id="RG05">Entregar documentación completa en tiempo y forma (Kardex oficial, Carta de postulación de FIME, Carta de motivos, Formato de autorización de materias a cursar, CV, etc.).</Requisito>
+        <Requisito id="RG06">Cubrir el seguro de gastos médicos (nacional o internacional, según destino).</Requisito>
+    </RequisitosGeneralesUANL>
+
+    <UniversidadesDestino>
+        <Universidad tipo="Nacional">
+            <Nombre>Universidad Autónoma de San Luis Potosí (UASLP)</Nombre>
+            <Ubicacion>San Luis Potosí, México</Ubicacion>
+            <Pagina>https://www.uaslp.mx/#gsc.tab=0</Pagina>
+            <EnfoqueCarrera>Ingeniería en Sistemas Computacionales o Ingeniería Administrativa</EnfoqueCarrera>
+            <RequisitosEspecificos>
+                <Requisito id="N1E01">Cumplir con los requisitos generales de la UANL (50% de créditos y promedio de 85).</Requisito>
+                <Requisito id="N1E02">Presentar carta de motivos dirigida a la UASLP y carta compromiso.</Requisito>
+                <Requisito id="N1E03">Contar con carta de recomendación del director(a) de FIME y currículum vitae.</Requisito>
+                <Nota>La movilidad nacional se realiza bajo el convenio ANUIES o acuerdos bilaterales UANL-UASLP.</Nota>
+            </RequisitosEspecificos>
+        </Universidad>
+
+        <Universidad tipo="Nacional">
+            <Nombre>Universidad Autónoma de Guerrero (UAG)</Nombre>
+            <Ubicacion>Chilpancingo, Guerrero, México</Ubicacion>
+            <Pagina>https://www.uagro.mx/</Pagina>
+            <EnfoqueCarrera>Ingeniería en Sistemas o Ingeniería Administrativa</EnfoqueCarrera>
+            <RequisitosEspecificos>
+                <Requisito id="N2E01">Cumplir con los requisitos generales de la UANL.</Requisito>
+                <Requisito id="N2E02">Presentar carta de motivos, carta compromiso y solicitud oficial UANL.</Requisito>
+                <Requisito id="N2E03">Contar con carta de recomendación del director(a) y currículum vitae.</Requisito>
+                <Nota>La UAG participa en convocatorias nacionales coordinadas por FIME y UANL.</Nota>
+            </RequisitosEspecificos>
+        </Universidad>
+
+        <Universidad tipo="Internacional">
+            <Nombre>Université Laval</Nombre>
+            <Ubicacion>Quebec, Canadá</Ubicacion>
+            <Pagina>https://www.ulaval.ca/</Pagina>
+            <EnfoqueCarrera>Administración de Sistemas, Ingeniería de Software, Gestión Informática</EnfoqueCarrera>
+            <RequisitosEspecificos>
+                <Requisito id="I1E01">Cumplir con los requisitos generales UANL (50% de créditos y promedio mínimo de 85).</Requisito>
+                <Requisito id="I1E02">Contar con dominio del idioma francés o inglés (TOEFL iBT mínimo 80 o equivalente).</Requisito>
+                <Requisito id="I1E03">Pasaporte vigente y visa canadiense de estudiante.</Requisito>
+                <Requisito id="I1E04">Contratar seguro de gastos médicos internacional con cobertura en Canadá.</Requisito>
+                <Requisito id="I1E05">Presentar carta de motivos y carta de apoyo del director(a) de FIME.</Requisito>
+                <Requisito id="I1E06">Cumplir con requisitos académicos específicos de Laval (diploma preuniversitario + 1 año de estudios universitarios).</Requisito>
+            </RequisitosEspecificos>
+        </Universidad>
+    </UniversidadesDestino>
+</ProgramaMovilidad>
